@@ -8,7 +8,7 @@ public:
             {
                 if(s[i]>='a'&& s[i]<='z') result1+=s[i];
                 else if(!result1.empty()) result1.pop_back();
-                ++i;
+                i++;
             }
         i=0;
         
@@ -16,7 +16,7 @@ public:
          {
                 if(t[i]>='a'&&t[i]<='z')result2+=t[i];
                 else if(!result2.empty())  result2.pop_back();
-                ++i;
+                i++;
             }
         
         if(result1.compare(result2)==0) return true;
