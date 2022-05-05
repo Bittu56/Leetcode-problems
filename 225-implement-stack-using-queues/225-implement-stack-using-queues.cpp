@@ -1,48 +1,43 @@
 class MyStack {
 public:
- queue<int> q;
-
-    int peek = -1;   //  maintaining the top element of stack 
-    
+    queue<int >q1;
+    queue<int>q2;
     MyStack() {
-       
+        
     }
     
     void push(int x) {
-         peek = x;
-        q.push(x);
+        q2.push(x);
+        while(!q1.empty())
+        {
+            q2.push(q1.front());
+            q1.pop();
+            
+        }
+        swap(q1,q2);
+        
     }
-    
     
     int pop() {
         
-       int n = q.size();
-       n-=1; 
-       while(n--){
-          peek = q.front();     // maintining the top element 
-           q.push(peek);
-           q.pop();
-       } 
-        
-       int ret = q.front();     // storing the element to return 
-        q.pop();                // removing the element permanently
-        
-        return ret;
+        int m=top();
+        q1.pop();
+        return m;
         
     }
     
     int top() {
-        
-     return peek ;
+        int x=q1.front();
+        return x;
         
     }
-    
     
     bool empty() {
+        return q1.empty();
         
-        return q.size()==0;
     }
 };
+
 /**
  * Your MyStack object will be instantiated and called as such:
  * MyStack* obj = new MyStack();
