@@ -35,41 +35,30 @@ public:
     }
 };*/
         
-       
+    
+        int n = s.size();
+        if(n<k) return s;
         
-        int n = s.length();
-        vector<int> continousFreqCount(n, 1);
-        stack<int> st;
-        string ans;
-        
-        st.push(0);
-        
-        for(int i = 1; i < n ; i++){
-            
-            if(!st.empty()){
-                if(s[st.top()]==s[i]) continousFreqCount[i] = continousFreqCount[st.top()] + 1;
+        stack<pair<char,int>> stk;
+        for(int i=0; i<n; ++i){
+            if(stk.empty() || stk.top().first != s[i]) stk.push({s[i],1});
+            else{
+                auto prev = stk.top();
+                stk.pop();
+                stk.push({s[i], prev.second+1});
             }
-            
-            st.push(i);
-            
-            if(continousFreqCount[st.top()] == k){
-                for(int i = 0 ; i < k ; i++){
-                    st.pop();
-                }
-            }
-            
+            if(stk.top().second==k) stk.pop();
         }
         
-        while(!st.empty()){
-            
-            ans += s[st.top()];
-            st.pop();
-            
+        string ans = "";
+        while(!stk.empty()){
+            auto cur = stk.top();
+            stk.pop();
+            while(cur.second--){
+                ans.push_back(cur.first);
+            }
         }
-        
         reverse(ans.begin(), ans.end());
-        
         return ans;
-        
     }
 };
