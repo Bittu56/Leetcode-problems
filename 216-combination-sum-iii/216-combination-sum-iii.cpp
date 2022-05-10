@@ -1,24 +1,32 @@
 class Solution {
-public:
-    vector<vector<int>> ans;
+    vector<vector<int>> result;
     
-    void f(vector<int>& cur, int cnum, int k, int n) {
-        if(n < 0 || cur.size() > k) return;
-        if(n == 0 && cur.size() == k) {
-            ans.push_back(cur);
+    void try_Combination(vector<int>combination, int k, int n, int start)
+    {
+        if(k==combination.size())
+        {
+            if(n==0)
+                result.push_back(combination);
             return;
         }
         
-        for(int i=cnum; i<=9; ++i) {
-            cur.push_back(i);
-            f(cur, i+1, k, n-i);
-            cur.pop_back();
+        for(int i=start;i<=9;i++)
+        {
+            combination.push_back(i);
+            try_Combination(combination,k,n-i,i+1);
+            combination.pop_back();
+            
         }
-    }
+            
+            
+        }
     
+public:
     vector<vector<int>> combinationSum3(int k, int n) {
-        vector<int> cur;
-        f(cur, 1, k, n);
-        return ans;
+        vector<int>combination;
+        try_Combination(combination,k,n,1);
+        
+        return result;
+        
     }
 };
