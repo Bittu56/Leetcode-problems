@@ -38,6 +38,7 @@ public:
                {
                    q.push(NULL);
                    continue;
+                  
                }
                
                curr->next=q.front();
