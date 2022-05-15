@@ -1,31 +1,27 @@
 class Solution {
 public:
     int waysToSplitArray(vector<int>& nums) {
+        long long sum=0, lsum=0,rsum=0;
         
-        long long sum=0;
-        long long lsum=0;
-        long long rsum=0;
-        int res=0;
-        for(auto &i:nums)
-        {
-            sum=sum+i;
+        //calculate sum of all values in nums
+        for(auto i:nums){
+            sum+=i;
         }
         
-        int n=nums.size();
-        
-        for(int i=0;i<nums.size();i++)
-        {
-            lsum=lsum+nums[i];
-        
-            rsum=sum-lsum;
+        int n=nums.size(),res=0;
+    
+        for(int i=0;i<n;i++){
+            lsum+=nums[i];//calculate left sum
             
-            if(i<n-1 && lsum>=rsum)
-            {
-                res++;
+            rsum=sum-lsum;//calculate right sum
+            
+            if(i<n-1 && lsum>=rsum){
+                // increment result if there is atleast 
+                //one element after i and left sum is 
+                //greater than equal to right sum
+                res++; 
             }
-            
         }
         return res;
-        }
-        
-    };
+    }
+};
