@@ -16,8 +16,11 @@ public:
         if (original == target) return cloned;
         TreeNode* left = getTargetCopy(original->left, cloned->left, target);
 		// early return if we already find it
-        if (left != nullptr) return left;
-        return getTargetCopy(original->right, cloned->right, target);
+         TreeNode* right= getTargetCopy(original->right, cloned->right, target);
+         TreeNode * temp=(left != nullptr) ?left:right;
+      
+      
+    return temp;
         
     }
 };
