@@ -25,7 +25,7 @@ public:
                         store.insert({nums[i] , nums[j] , nums[x] , nums[y]});
                         x++;
                         y--;
-                    };
+                    }
                 }
             }
         }
