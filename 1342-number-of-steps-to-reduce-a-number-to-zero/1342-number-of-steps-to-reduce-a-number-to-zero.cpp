@@ -5,11 +5,13 @@ public:
         while(num){
             if(num%2){ 
                 --num;
+                      ++count;
             }
             else{ // even
                 num=num/2;
+                      ++count;
             }
-            ++count;
+           
         }
         return count;
     }
