@@ -28,7 +28,7 @@ public:
             headA=headA->next;
         }
         
-        return NULL;
+        return nullptr;
         
     }
 };
