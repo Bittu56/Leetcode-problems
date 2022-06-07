@@ -19,7 +19,7 @@ public:
         ListNode* first= start;
         ListNode * last=start;
         
-        if(head->next==NULL)
+        if(start->next==NULL)
             return NULL;
         
         for(int i=1;i<=n;++i)
