@@ -13,8 +13,8 @@ public:
     ListNode* addTwoNumbers(ListNode* l1, ListNode* l2) {
         
          
-        ListNode * dummy= new ListNode();
-        ListNode* temp=dummy;
+        ListNode * temp= new ListNode();
+    
         int carry=0;
         ListNode *temp2=temp;
         
