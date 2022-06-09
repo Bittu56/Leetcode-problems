@@ -15,40 +15,37 @@ class Solution
     //Function to merge two nodes a and b.
     void union_( int a, int b, int par[], int rank[]) 
     {
-        //code here
-        //connect two elements
-        a = checkparent(a,par);
-        b = checkparent(b,par);
+        
+        a= checkparent(a, par);
+        b=checkparent(b, par);
         
         if(rank[a]<rank[b])
         {
             par[a]=b;
         }
-        else if(rank[b]<rank[a])
+        else if (rank[b]<rank[a])
         {
-            par[b]=a;
+         par[b]=a;   
         }
-        else
+        else 
         {
             par[a]=b;
             rank[b]++;
         }
-        
+        //code here
     }
     
     int checkparent(int element, int par[])
     {
         if(par[element]==element)
-return element;
-         return par[element] = checkparent(par[element],par);
-        
+        return element;
+        return par[element]= checkparent(par[element],par);
     }
-    
     //Function to check whether 2 nodes are connected or not.
     bool isConnected(int x,int y, int par[], int rank[])
     {
         //code here
-        //check if their parents are same or not
+        
         return checkparent(x,par)==checkparent(y,par);
     }
 };
