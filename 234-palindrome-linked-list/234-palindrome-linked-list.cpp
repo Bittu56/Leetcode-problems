@@ -20,14 +20,10 @@ public:
                 curr=temp->next;
                 temp->next=prev;
                 prev=temp;
-                temp=curr;
-               
-                
+                temp=curr;       
             }
             
-            return prev;
-            
-            
+            return prev;     
         }
         
     bool isPalindrome(ListNode* head) {
