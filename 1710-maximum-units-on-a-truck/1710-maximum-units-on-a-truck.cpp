@@ -1,19 +1,33 @@
 class Solution {
 public:
-    static bool myfunction(vector<int>& a, vector<int>& b){
-        return a[1] > b[1];
-    }
     int maximumUnits(vector<vector<int>>& boxTypes, int truckSize) {
-	    
-        sort(boxTypes.begin(),boxTypes.end(),myfunction);
-	
-        int ans=0;
-        for(auto box: boxTypes){
-            int x=min(box[0],truckSize);  
-            ans+=(x*box[1]);
-            truckSize-=x;  
-            if(!truckSize) break;  
+        
+        priority_queue<pair<int,int>>pq;
+        
+        int count=0;
+         int units=0;
+        
+        for(vector<int>x:boxTypes)
+        {
+            pq.push({x[1],x[0]});
         }
-        return ans;
+        while(count<truckSize && !pq.empty())
+        {
+            if(count+pq.top().second<truckSize)
+            {
+                units+=pq.top().second*pq.top().first;
+                count+=pq.top().second;
+                pq.pop();
+            }
+            else
+            {
+                
+                int quantity=truckSize-count;
+                units+=quantity*pq.top().first;
+                count+=quantity;
+            }
+        }
+        
+        return units;
     }
 };
