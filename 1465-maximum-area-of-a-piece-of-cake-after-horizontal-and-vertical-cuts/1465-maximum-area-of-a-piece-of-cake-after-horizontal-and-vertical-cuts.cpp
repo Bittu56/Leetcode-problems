@@ -9,7 +9,7 @@ public:
         sort(horizontalCuts.begin(),horizontalCuts.end());
         sort(verticalCuts.begin(),verticalCuts.end());
         
-        long l=0,b=0;
+        long long l=0,b=0;
         for(int i=1;i<horizontalCuts.size();i++)
         {
             if(l<horizontalCuts[i]-horizontalCuts[i-1])
