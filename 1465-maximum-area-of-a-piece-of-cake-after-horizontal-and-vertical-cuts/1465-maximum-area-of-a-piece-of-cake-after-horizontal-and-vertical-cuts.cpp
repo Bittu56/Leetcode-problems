@@ -1,3 +1,5 @@
+const int mod=1000000007;
+
 class Solution {
 public:
     int maxArea(int h, int w, vector<int>& horizontalCuts, vector<int>& verticalCuts) {
@@ -26,7 +28,7 @@ public:
         }
         
         
-        return (l*b)%(1000000007);
+        return (l*b)%mod;
         
     }
 };
