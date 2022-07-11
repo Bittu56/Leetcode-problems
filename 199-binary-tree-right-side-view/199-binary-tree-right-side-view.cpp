@@ -11,24 +11,24 @@
  */
 class Solution {
 public:
-        vector<int> solve(TreeNode* root, vector<int> res, int lvl){
-        if (root==NULL){
-            return res;
-        }
-        if (res.size()==lvl){                 // root
-            res.push_back(root->val);
-        }
-        res = solve(root->right , res , lvl + 1);     // right
-        res = solve(root->left , res , lvl + 1);       // left
+    vector<int> rightSideView(TreeNode* root) {
+        
+        vector<int>res;
+        recursion(root,0,res);
         return res;
     }
     
-    vector<int> rightSideView(TreeNode* root) {
-        vector<int> res;
-        res = solve( root , res , 0 );
-        return res;
-
+    
+    void recursion(TreeNode *root, int level, vector<int>&res)
+    {
+        if(root==NULL)
+            return;
         
-        
+        if(res.size()==level)
+        {
+            res.push_back(root->val);
+        }
+        recursion(root->right,level+1,res);
+        recursion(root->left,level+1,res);
     }
 };
