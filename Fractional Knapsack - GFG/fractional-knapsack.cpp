@@ -30,7 +30,7 @@ class Solution
     return r1 > r2; 
 }
 // function to return fractionalweights
-public:
+
 double fractionalKnapsack(int W, Item arr[], int n)
 {
     // Your code here
