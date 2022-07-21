@@ -10,21 +10,22 @@
  */
 class Solution {
 public:
-    ListNode* reverseBetween(ListNode* head, int m, int n) 
-{
-	ListNode *start, *h, *prev = nullptr;
-
-	for(h = head; n--; m--)
-		if(m>0)
-			start = exchange(prev, exchange(h, h->next));
-		else
-			prev  = exchange(h, exchange(h->next, prev));
-
-    if(start)
-        start->next->next = h, start->next = prev;
-    else
-        head->next = h, head = prev;
-
-	return head;
-}
+    ListNode* reverseBetween(ListNode* head, int left, int right) {
+        ListNode *dummy = new ListNode(0); 
+        dummy->next = head;
+        ListNode *prev = dummy; 
+        
+        for(int i = 0; i < left - 1; i++)
+            prev = prev->next; 
+        
+        ListNode *curr = prev->next; 
+        // reversing
+        for(int i = 0; i < right - left; i++){
+            ListNode *forw = curr->next; 
+            curr->next = forw->next;
+            forw->next = prev->next;
+            prev->next = forw;
+        }
+        return dummy->next;
+    }
 };
