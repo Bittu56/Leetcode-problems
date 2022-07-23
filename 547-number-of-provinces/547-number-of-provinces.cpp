@@ -1,7 +1,6 @@
 class Solution {
 public:
   
-
 int findCircleNum(vector<vector<int>>& M) {
 	int n=M.size(),ans=0;
 	if(n==0) return 0;
@@ -24,6 +23,9 @@ void dfs(vector<vector<int>>& M, vector<bool>& vis, int i)
 	vis[i]=true;
 	for(int j=0;j<M.size();j++)
 		if(M[i][j]==1 && !vis[j])
+        {
+            vis[j]=true;
 			dfs(M,vis,j);
+        }
 }
 };
