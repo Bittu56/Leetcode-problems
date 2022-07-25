@@ -1,9 +1,5 @@
 class Solution {
 public:
-    vector<int> searchRange(vector<int>& nums, int target) {
-        return {BinarySearch(nums, target, "FIRST"), BinarySearch(nums, target, "LAST")};
-    }
-    
     int BinarySearch(vector<int> nums, int num, string find) {
         int left = 0, right = nums.size() - 1, mid;
         int result = -1;
@@ -25,4 +21,8 @@ public:
 
         return result;
     }
+    vector<int> searchRange(vector<int>& nums, int target) {
+        return {BinarySearch(nums, target, "FIRST"), BinarySearch(nums, target, "LAST")};
+    }
+   
 };
