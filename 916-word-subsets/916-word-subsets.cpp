@@ -1,25 +1,43 @@
 class Solution {
 public:
-   
-      vector<int> countFreq(string& word){
-	vector<int> freq(26);
-	for(auto& c : word) freq[c - 'a']++;
-	return freq;
-}
-vector<string> wordSubsets(vector<string>& A, vector<string>& B) {
-	vector<int> Maxfreq(26); 
-	vector<string> ans;
-	for(auto& word : B){
-		vector<int> freq = countFreq(word);            
-		for(int i = 0; i < 26; i++) Maxfreq[i] = max(Maxfreq[i], freq[i]);
-	}        
-	for(auto& word : A){
-		vector<int> freq = countFreq(word);            
-		int i = 0;
-		for(;i < 26; i++) if(freq[i] < Maxfreq[i]) break;
-		if(i == 26) ans.push_back(word);
-	}
-	return ans;
-}      
+    vector<int> checkfreq(string &str)
+    {
+        vector<int> freq(26);
+        for(auto &c:str)
+        {
+            freq[c-'a']++;
+        }
+        return freq;
+        
+    }
     
+    vector<string> wordSubsets(vector<string>& words1, vector<string>& words2) {
+        
+     vector<int>maxfreq(26);
+      vector<string>ans; 
+        for(auto &ref:words2)
+        {
+            vector<int>freq=checkfreq(ref);
+    
+        for(int i=0;i<26;i++)
+            maxfreq[i]=max(freq[i],maxfreq[i]);
+        }
+        
+    
+        for(auto &ref:words1)
+        {
+        vector<int>freq=checkfreq(ref);
+        
+        int i=0;
+        for(;i<26;i++)
+        {
+ if(freq[i]<maxfreq[i])
+ break;
+        }
+            if(i==26) ans.push_back(ref);
+        }
+        
+        return ans;
+        
+    }
 };
