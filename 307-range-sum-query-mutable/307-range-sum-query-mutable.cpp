@@ -1,7 +1,7 @@
 class NumArray {
 public:
-    vector<int>v; //vector to store input vector.
-    int sum; //sum of all element of vector 
+    vector<int>v;
+    int sum; 
     NumArray(vector<int>& nums) {
         v=nums;
         sum=0;
@@ -11,7 +11,7 @@ public:
     }
     
     void update(int index, int val) {
-        sum-=v[index];     //subtract old element  from sum at index and then update by adding new element val.
+        sum-=v[index];     
         v[index]=val;
         sum+=val;
         
