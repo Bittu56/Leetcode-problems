@@ -19,22 +19,31 @@
  *     TreeNode(int x, TreeNode *left, TreeNode *right) : val(x), left(left), right(right) {}
  * };
  */
+
+
 class Solution {
 public:
+      TreeNode* fnc(vector<int> &v, int l, int r)
+      {
+        if(l>r)
+            return NULL;
+        int mid=l+(r-l)/2;
+        TreeNode * node= new TreeNode(v[mid]);
+        node->left=fnc(v,l,mid-1);
+        node->right=fnc(v,mid+1,r);
+        return node;
+     }
+    
     TreeNode* sortedListToBST(ListNode* head) {
-        if(!head) return nullptr;
-        if(!head->next) return new TreeNode(head->val);
-        ListNode *slow = head, *fast = head->next;
-        while(fast->next && fast->next->next){
-            slow = slow->next;
-            fast = fast->next->next;
+          vector<int> v;
+        while(head)
+        {
+         
+        v.push_back(head->val);
+            head=head->next;
         }
-        ListNode* mid = slow->next;
-        slow->next = nullptr;
-        TreeNode *root = new TreeNode(mid->val);
-        root->left = sortedListToBST(head);
-        root->right = sortedListToBST(mid->next);
         
-        return root;
+        return fnc(v,0,v.size()-1);
     }
 };
+            
