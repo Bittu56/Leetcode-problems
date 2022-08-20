@@ -18,8 +18,6 @@ public:
             max_you_can_reach+=pq.top();
             pq.pop();
             count++;
-                
-            
         }
         return count;
         
