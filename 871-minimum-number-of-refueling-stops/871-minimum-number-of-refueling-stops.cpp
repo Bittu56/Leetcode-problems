@@ -1,23 +1,27 @@
 class Solution {
 public:
     int minRefuelStops(int target, int startFuel, vector<vector<int>>& stations) {
+        int max_you_can_reach=startFuel;
+        int count=0;
+        int index=0;
+        
         priority_queue<int> pq;
-        int minStops=0;
-        int currentStationIndex = 0;
-        int totalStations = size(stations);
-        while(startFuel<target)
+        while(max_you_can_reach<target)
         {
-            while(currentStationIndex < totalStations and stations[currentStationIndex][0]<=startFuel)
+            while(index<stations.size() && stations[index][0]<=max_you_can_reach)
             {
-                pq.push(stations[currentStationIndex][1]);
-                currentStationIndex++;
+                pq.push(stations[index][1]);
+                index++;
             }
             if(pq.empty())
-                return -1;
-            startFuel+=pq.top();
+            return -1;
+            max_you_can_reach+=pq.top();
             pq.pop();
-            minStops++;
+            count++;
+                
+            
         }
-        return minStops;
+        return count;
+        
     }
 };
