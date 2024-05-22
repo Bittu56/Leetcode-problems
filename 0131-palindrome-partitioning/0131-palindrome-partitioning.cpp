@@ -1,40 +1,40 @@
 class Solution {
 public:
-    bool palindrome(string prefix)
-    {
-        int l=0;
-        int r=prefix.size()-1;
-        while(l<r)
-        {
-            if(prefix[l]!=prefix[r])
-                return false;
-            l++;r--;
-        }
-        return true;
+    vector<vector<string>> partition(string s) {
+        vector<vector<string>> res;
+        vector<string>path;
+        func(0,s,path,res);
+            return res;
     }
-    void solve(string s,vector<vector<string>>&ans,vector<string>&v)
-    {
-        if(s.size()==0)
+        
+        void func(int index, string s, vector<string> &path,           vector<vector<string>> &res)
         {
-            ans.push_back(v);
-            return;
-        }
-        for(int i=0;i<s.size();i++)
-        {
-            string prefix=s.substr(0,i+1);
-            string left=s.substr(i+1);
-            if(palindrome(prefix))
+            if(index == s.size())
             {
-                v.push_back(prefix);
-                solve(left,ans,v);
-                v.pop_back();
+                res.push_back(path);
+                return;
+            }
+            for(int i =index; i< s.size();++i)
+            {
+                if(ispalindrome(s, index, i))
+                {
+                    path.push_back(s.substr(index, i-index+1));
+                    func(i+1, s, path, res);
+                    path.pop_back();
+                }
+                
             }
         }
-    }
-    vector<vector<string>> partition(string s) {
-        vector<vector<string>>ans;
-        vector<string>v;
-        solve(s,ans,v);
-        return ans;
-    }
-};
+            bool ispalindrome(string s, int start, int end)
+            {
+                while(start<=end)
+                {
+                    if(s[start++]!=s[end--])
+                       {
+                         return false;
+                       }
+                    
+                }
+                return true;
+            }
+    };
