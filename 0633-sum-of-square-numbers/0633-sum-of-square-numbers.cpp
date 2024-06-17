@@ -1,18 +1,23 @@
 class Solution {
 public:
     bool judgeSquareSum(int c) {
-        for (int divisor = 2; divisor * divisor <= c; divisor++) {
-            if (c % divisor == 0) {
-                int exponentCount = 0;
-                while (c % divisor == 0) {
-                    exponentCount++;
-                    c /= divisor;
-                }
-                if (divisor % 4 == 3 && exponentCount % 2 != 0) {
-                    return false;
-                }
-            }
+        if(c<0)
+            return false;
+        
+     long left=0;
+     long right= (int)sqrt(c);
+        while(left<=right)
+        {
+            long sum=left*left+right*right;
+            if(sum<c)
+                left++;
+            else if (sum>c)
+                right--;
+            if(sum==c)
+                return true;
         }
-        return c % 4 != 3;
+        
+        return false;
+        
     }
 };
