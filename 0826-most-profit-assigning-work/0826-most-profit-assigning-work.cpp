@@ -1,26 +1,35 @@
 class Solution {
 public:
     int maxProfitAssignment(vector<int>& difficulty, vector<int>& profit, vector<int>& worker) {
-        int maxDifficulty = *max_element(difficulty.begin(), difficulty.end());
-        vector<int> maxProfitUpToDifficulty(maxDifficulty + 1, 0);
-
-        for (int i = 0; i < difficulty.size(); ++i) {
-            maxProfitUpToDifficulty[difficulty[i]] = max(maxProfitUpToDifficulty[difficulty[i]], profit[i]);
+        int n= difficulty.size();
+        int m= worker.size();
+        
+        priority_queue<pair<int,int>>pq;
+        for(int i=0;i< n;i++)
+        {
+            int diff=difficulty[i];
+            int prof=profit[i];
+            pq.push({prof,diff});
         }
-
-        for (int i = 1; i <= maxDifficulty; ++i) {
-            maxProfitUpToDifficulty[i] = max(maxProfitUpToDifficulty[i], maxProfitUpToDifficulty[i - 1]);
-        }
-
-        int totalProfit = 0;
-        for (int ability : worker) {
-            if (ability > maxDifficulty) {
-                totalProfit += maxProfitUpToDifficulty[maxDifficulty];
-            } else {
-                totalProfit += maxProfitUpToDifficulty[ability];
+        
+        sort(worker.begin(), worker.end(), greater<int>());
+        int i=0;
+        int totalprofit=0;
+        while(i<m && !pq.empty())
+        {
+            if(pq.top().second>worker[i])
+            {
+                pq.pop();
+            }
+            else
+            {
+                totalprofit+=pq.top().first;
+                i++;
             }
         }
-
-        return totalProfit;
+        
+        
+        return totalprofit;
+        
     }
 };
