@@ -1,35 +1,47 @@
 class Solution {
 public:
-    int maxDistance(vector<int>& position, int m) {
-        sort(position.begin(), position.end());
-        int lo = 1;
-        int hi = (position.back() - position[0]) / (m - 1);
-        int ans = 1;
-        while (lo <= hi) {
-            int mid = lo + (hi - lo) / 2;
-            if (canWePlace(position, mid, m)) {
-                ans = mid;
-                lo = mid + 1;
-            } else {
-                hi = mid - 1;
+
+    bool possibleToPlace(int force, vector<int>& position, int m) {
+
+        int prev       = position[0];
+        int countBalls = 1;
+
+
+        for(int i = 1; i < position.size(); i++) {
+            int curr = position[i];
+
+            if(curr - prev >= force) {
+                countBalls++;
+                prev = curr;
             }
+
+            if(countBalls == m)
+                break;
         }
-        return ans;
+
+        return countBalls == m;
+
     }
 
-private:
-    bool canWePlace(const vector<int>& arr, int dist, int balls) {
-        int countBalls = 1;
-        int lastPlaced = arr[0];
-        for (int i = 1; i < arr.size(); i++) {
-            if (arr[i] - lastPlaced >= dist) {
-                countBalls++;
-                lastPlaced = arr[i];
-            }
-            if (countBalls >= balls) {
-                return true;
+    int maxDistance(vector<int>& position, int m) {
+        int n = position.size();
+        sort(begin(position), end(position));
+
+        int minForce = 1;
+        int maxForce = position[n-1] - position[0]; //better value (comment me batao)
+
+        int result = 0;
+        while(minForce <= maxForce) {
+            int midForce = minForce + (maxForce - minForce)/2;
+
+            if(possibleToPlace(midForce, position, m)) {
+                result = midForce;
+                minForce = midForce+1;
+            } else {
+                maxForce = midForce-1;
             }
         }
-        return false;
+
+        return result;
     }
 };
