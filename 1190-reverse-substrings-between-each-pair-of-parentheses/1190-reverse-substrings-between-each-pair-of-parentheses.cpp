@@ -1,19 +1,29 @@
 class Solution {
 public:
-  string reverseParentheses(string s) {
-        vector<int> opened;
+    string reverseParentheses(string s) {
+        
+        stack<int> laststack;
         string res;
-        for (int i = 0; i < s.length(); ++i) {
-            if (s[i] == '(')
-                opened.push_back(res.length());
-            else if (s[i] == ')') {
-                int j = opened.back();
-                opened.pop_back();
-                reverse(res.begin() + j, res.end());
-            } else {
-                res += s[i];
+        
+        for(auto ch:s)
+        {
+            if(ch== '(')
+            {
+                laststack.push(res.length());
             }
+            
+            else if (ch == ')')
+            {
+                int l =laststack.top();
+                laststack.pop();
+                reverse(res.begin()+l, res.end());
+                
+            }
+            else
+                res+=ch;
         }
+        
+        
         return res;
     }
 };
