@@ -1,41 +1,53 @@
-#include <string>
-#include <vector>
 class Solution {
 public:
-    string fractionAddition(string expression) {
-        int numerator = 0, denominator = 1;
-        int i = 0, n = expression.size();
+    string fractionAddition(string expr) {
+        int nume = 0;
+        int deno = 1;
 
-        while (i < n) {
-            int sign = 1;
-            if (expression[i] == '+' || expression[i] == '-') {
-                if (expression[i] == '-') sign = -1;
+        int i = 0;
+        int n = expr.length();
+        while(i < n) {
+            int currNume = 0;
+            int currDeno = 0;
+
+            bool isNeg = (expr[i] == '-');
+            
+            if(expr[i] == '+' || expr[i] == '-') {
                 i++;
             }
 
-            int num = 0;
-            while (i < n && isdigit(expression[i])) {
-                num = num * 10 + (expression[i] - '0');
-                i++;
-            }
-            num *= sign;
-
-            i++;
-
-            int den = 0;
-            while (i < n && isdigit(expression[i])) {
-                den = den * 10 + (expression[i] - '0');
+            //Build the currNume
+            while(i < n && isdigit(expr[i])) {
+                int val = expr[i] - '0';
+                currNume = (currNume*10) + val;
                 i++;
             }
 
-            numerator = numerator * den + num * denominator;
-            denominator *= den;
+            i++; //numerator / denominator //skipiing the divisrio character '/'
 
-            int gcdVal = gcd(abs(numerator), denominator);
-            numerator /= gcdVal;
-            denominator /= gcdVal;
+            if(isNeg == true) {
+                currNume *= -1;
+            }
+
+            //Build the currDeno
+            while(i < n && isdigit(expr[i])) {
+                int val = expr[i] - '0';
+                currDeno = (currDeno * 10) + val;
+                i++;
+            }
+
+            nume = nume * currDeno + currNume * deno;
+            deno = deno * currDeno;
         }
 
-        return to_string(numerator) + "/" + to_string(denominator);
+        //num
+        //deno
+        //-3 / 6 //GCD : 3
+        int GCD = abs(__gcd(nume, deno)); //3
+
+        nume /= GCD; //-1
+        deno /= GCD; //2
+
+        return to_string(nume) + "/" + to_string(deno); //"-1/2"
     }
 };
