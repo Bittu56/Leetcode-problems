@@ -1,41 +1,48 @@
 class Solution {
 public:
     
-    void DFS(Node* node, Node* clone_node, vector<Node*>& visited) {
-        visited[node->val] = clone_node;
+    unordered_map<Node*, Node*> mp;
+    
+    void DFS(Node* node, Node* clone_node) {
         
-        for(Node* x : node->neighbors) {
-            if(visited[x->val] == NULL) {
-                Node* clone = new Node(x->val);
+        for(Node* n : node->neighbors) {
+            
+            if(mp.find(n) == mp.end()) {
+                
+                Node* clone = new Node(n->val);
+                mp[n] = clone;
                 clone_node->neighbors.push_back(clone);
-                DFS(x, clone, visited);
+                
+                DFS(n, clone);
+                
             } else {
-                clone_node->neighbors.push_back(visited[x->val]);
+                
+                clone_node->neighbors.push_back(mp[n]);
+                
             }
+            
         }
+        
     }
     
     Node* cloneGraph(Node* node) {
         if(!node)
             return NULL;
         
+        mp.clear();
+        
         //cloned the given node
         Node* clone_node = new Node(node->val);
         
-        //Now, clone its neighbours and recursively their neighbours
+        //Now, cloe its neighbours and recursively their newighbours
         /*
-            But if a node reappears, then we need to access that cloned node
-            So, store them in a vector to access
+                But if a node reappears, then we need to access that cloned node
+                So, store them in a map <Node*, Node*>
         */
         
-        vector<Node*> visited(101, NULL); //Using contraints given
-        //We could use map also if constraints are not clear (i.e. unordered_map<Node*, Node*> visited;)
-        visited[node->val] = clone_node;
+        mp[node] = clone_node;
         
-
-        DFS(node, clone_node, visited);
- 
-        
+        DFS(node, clone_node);
         
         return clone_node;
     }
