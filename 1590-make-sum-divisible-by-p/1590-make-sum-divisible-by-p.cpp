@@ -15,7 +15,7 @@ public:
             return 0;
         }
 
-        unordered_map<int, int> mp; //prev sum%p ko store karega
+        unordered_map<int, int> mp; 
 
         int curr = 0;
         mp[0] = -1;
