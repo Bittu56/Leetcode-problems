@@ -1,23 +1,17 @@
-#define mod 1000000007
 class Solution {
-private:
-    long long power(long long x, long long n){
-        if(n == 0){
-            return 1;
-        }
-        long long ans = power(x, n/2);
-        ans *= ans;
-        ans %= mod;
-        if(n%2==1){
-            ans *= x;
-            ans %= mod;
-        }
-        return ans;
-    }
 public:
+    long long powerMod(int a, long long b, int mod) {
+        if(b == 0)
+            return 1;
+        long long x = powerMod(a, b/2, mod);
+        if(b % 2 == 0)
+            return (x * x) % mod;
+        else
+            return (((a * x) % mod) * x) % mod;
+    }
+    
     int countGoodNumbers(long long n) {
-        long long numberOfOddPlaces = n/2;
-        long long numberOfEvenPlaces = n/2 + n%2;
-        return (power(5, numberOfEvenPlaces) * power(4, numberOfOddPlaces))%mod;
+        int mod = 1e9+7;
+        return (powerMod(5, (n + 1) / 2, mod) * powerMod(4, n / 2, mod)) % mod;
     }
 };
