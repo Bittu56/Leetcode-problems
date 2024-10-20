@@ -4,7 +4,7 @@ public:
     
     void solve(int idx, string &digits, string &temp, unordered_map<char, string> &mp) {
         
-        if(idx >= digits.length()) {
+        if(idx == digits.length()) {
             result.push_back(temp);
             return;
         }
