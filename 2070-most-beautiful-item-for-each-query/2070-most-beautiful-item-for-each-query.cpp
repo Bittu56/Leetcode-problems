@@ -1,31 +1,50 @@
+
 class Solution {
 public:
+
+    int customBinarySearch(vector<vector<int>>& items, int queryPrice) {
+        int l = 0;
+        int r = items.size()-1;
+
+        int mid;
+        int maxBeauty = 0;
+
+        while(l <= r) {
+            mid = l + (r-l)/2;
+
+            if(items[mid][0] > queryPrice) {
+                r = mid-1; //ignore current and right side items. Move to left now.
+            } else {
+                maxBeauty = max(maxBeauty, items[mid][1]);
+                l = mid+1;
+            }
+        }
+
+        return maxBeauty;
+    }
+
     vector<int> maximumBeauty(vector<vector<int>>& items, vector<int>& queries) {
-        int maxI = INT_MAX;
-        vector<vector<int>> res = {{0, 0, maxI}};
+        int n = items.size();
+        int m = queries.size();
 
-        sort(items.begin(), items.end());
+        vector<int> result(m);
 
-        for (const auto& item : items) {
-            int price = item[0];
-            int beauty = item[1];
-            if (beauty > res.back()[1]) {
-                res.back()[2] = price;
-                res.push_back({price, beauty, maxI});
-            }
+        //step-1 : Sort the array based on price in asencind order
+        sort(begin(items), end(items)); //{pricei, beautyi}
+
+        int maxBeautySeen = items[0][1];
+        for(int i = 1; i < n; i++) {
+            maxBeautySeen = max(maxBeautySeen, items[i][1]);
+            items[i][1] = maxBeautySeen;
         }
 
-        vector<int> ans;
 
-        for (int x : queries) {
-            for (int i = res.size() - 1; i >= 0; i--) {
-                if (res[i][0] <= x) {
-                    ans.push_back(res[i][1]);
-                    break;
-                }
-            }
+        for(int i = 0; i < m; i++) {
+            int queryPrice = queries[i];
+            result[i] = customBinarySearch(items, queryPrice);
         }
 
-        return ans;
+        return result;
+
     }
 };
