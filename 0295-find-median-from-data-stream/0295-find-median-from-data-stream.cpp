@@ -1,36 +1,40 @@
 class MedianFinder {
-private:
-    priority_queue<int> firstQ; // max_heap for the first half
-    priority_queue<int, std::vector<int>, std::greater<int> > secQ; // min_heap for the second half
 public:
-    // Adds a number into the data structure.
-    void addNum(int num) {
-        if(firstQ.empty() || (firstQ.top()>num)) firstQ.push(num); // if it belongs to the smaller half
-        else secQ.push(num); 
+    priority_queue<int> left_max_heap; //max heap
+    priority_queue<int, vector<int>, greater<int>> right_min_heap; //min heap
+    MedianFinder() {
         
-        // rebalance the two halfs to make sure the length difference is no larger than 1
-        if(firstQ.size() > (secQ.size()+1))
-        {
-            secQ.push(firstQ.top());
-            firstQ.pop();
-        }
-        else if(firstQ.size()+1<secQ.size())
-        {
-            firstQ.push(secQ.top());
-            secQ.pop();
-        }
     }
-
-    // Returns the median of current data stream
+    
+    void addNum(int num) {
+        if(left_max_heap.empty() || num < left_max_heap.top()) {
+            left_max_heap.push(num);
+        } else {
+            right_min_heap.push(num);
+        }
+        
+        
+        //always maintain left_max_heap size one greater than rigfht_min_heap size
+        //ya fir, dono ka size equal ho
+        
+        if(abs((int)left_max_heap.size() - (int)right_min_heap.size()) > 1) {
+            right_min_heap.push(left_max_heap.top());
+            left_max_heap.pop();
+        } else if(left_max_heap.size() < right_min_heap.size()) {
+            left_max_heap.push(right_min_heap.top());
+            right_min_heap.pop();
+        }
+        
+    }
+    
     double findMedian() {
-        if(firstQ.size() == secQ.size()) return firstQ.empty()?0:( (firstQ.top()+secQ.top())/2.0);
-        else return (firstQ.size() > secQ.size())? firstQ.top():secQ.top(); 
+        if(left_max_heap.size() == right_min_heap.size()) {
+            // matlab even number of elements hue honge
+            
+            return (double)(left_max_heap.top()+right_min_heap.top())/2;
+        }
+        
+        //else hamare paas odd number of elemenes hue honge
+        return left_max_heap.top();
     }
 };
-
-/**
- * Your MedianFinder object will be instantiated and called as such:
- * MedianFinder* obj = new MedianFinder();
- * obj->addNum(num);
- * double param_2 = obj->findMedian();
- */
