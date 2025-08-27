@@ -1,18 +1,18 @@
 class Solution {
 public:
-    int areaOfMaxDiagonal(vector<vector<int>>& dimensions) {
-        int maxArea = 0, maxDiag = 0;
-
-        for (int i = 0; i < dimensions.size(); i++) {
-            int l = dimensions[i][0];
-            int w = dimensions[i][1];
-            int currDiag = l * l + w * w;
-
-            if (currDiag > maxDiag || (currDiag == maxDiag && l * w > maxArea)) {
-                maxDiag = currDiag;
-                maxArea = l * w;
+    int areaOfMaxDiagonal(vector<vector<int>>& a) {
+        int n=a.size();
+        double mx=0;
+        int ans=0;
+        for(int i=0;i<n;i++){
+            if((a[i][0]*a[i][0]+a[i][1]*a[i][1])==mx){
+                ans=max(ans,a[i][0]*a[i][1]);
+            }
+            if((a[i][0]*a[i][0]+a[i][1]*a[i][1])>mx){
+                mx=a[i][0]*a[i][0]+a[i][1]*a[i][1];
+                ans=a[i][0]*a[i][1];
             }
         }
-        return maxArea;
+        return ans;
     }
 };
