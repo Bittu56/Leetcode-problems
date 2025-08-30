@@ -73,6 +73,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0133-clone-graph](https://github.com/Bittu56/Leetcode-problems/tree/master/0133-clone-graph) |
 | [0219-contains-duplicate-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/0219-contains-duplicate-ii) |
 ## Binary Search
 |  |
@@ -90,4 +91,16 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/Bittu56/Leetcode-problems/tree/master/3279-alice-and-bob-playing-flower-game) |
+## Depth-First Search
+|  |
+| ------- |
+| [0133-clone-graph](https://github.com/Bittu56/Leetcode-problems/tree/master/0133-clone-graph) |
+## Breadth-First Search
+|  |
+| ------- |
+| [0133-clone-graph](https://github.com/Bittu56/Leetcode-problems/tree/master/0133-clone-graph) |
+## Graph
+|  |
+| ------- |
+| [0133-clone-graph](https://github.com/Bittu56/Leetcode-problems/tree/master/0133-clone-graph) |
 <!---LeetCode Topics End-->
