@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/Bittu56/Leetcode-problems/tree/master/0015-3sum) |
 | [0033-search-in-rotated-sorted-array](https://github.com/Bittu56/Leetcode-problems/tree/master/0033-search-in-rotated-sorted-array) |
+| [0036-valid-sudoku](https://github.com/Bittu56/Leetcode-problems/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/Bittu56/Leetcode-problems/tree/master/0037-sudoku-solver) |
 | [0219-contains-duplicate-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/0219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/Bittu56/Leetcode-problems/tree/master/0238-product-of-array-except-self) |
@@ -29,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/Bittu56/Leetcode-problems/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/Bittu56/Leetcode-problems/tree/master/0037-sudoku-solver) |
 | [0498-diagonal-traverse](https://github.com/Bittu56/Leetcode-problems/tree/master/0498-diagonal-traverse) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
@@ -75,6 +77,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0036-valid-sudoku](https://github.com/Bittu56/Leetcode-problems/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/Bittu56/Leetcode-problems/tree/master/0037-sudoku-solver) |
 | [0133-clone-graph](https://github.com/Bittu56/Leetcode-problems/tree/master/0133-clone-graph) |
 | [0219-contains-duplicate-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/0219-contains-duplicate-ii) |
