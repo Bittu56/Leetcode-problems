@@ -13,6 +13,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0219-contains-duplicate-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/0219-contains-duplicate-ii) |
 | [0238-product-of-array-except-self](https://github.com/Bittu56/Leetcode-problems/tree/master/0238-product-of-array-except-self) |
 | [0498-diagonal-traverse](https://github.com/Bittu56/Leetcode-problems/tree/master/0498-diagonal-traverse) |
+| [0917-boats-to-save-people](https://github.com/Bittu56/Leetcode-problems/tree/master/0917-boats-to-save-people) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Bittu56/Leetcode-problems/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Bittu56/Leetcode-problems/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Bittu56/Leetcode-problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/Bittu56/Leetcode-problems/tree/master/0015-3sum) |
 | [0295-find-median-from-data-stream](https://github.com/Bittu56/Leetcode-problems/tree/master/0295-find-median-from-data-stream) |
+| [0917-boats-to-save-people](https://github.com/Bittu56/Leetcode-problems/tree/master/0917-boats-to-save-people) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## Design
 |  |
@@ -62,6 +64,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Bittu56/Leetcode-problems/tree/master/0015-3sum) |
 | [0047-permutations-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/0047-permutations-ii) |
 | [0295-find-median-from-data-stream](https://github.com/Bittu56/Leetcode-problems/tree/master/0295-find-median-from-data-stream) |
+| [0917-boats-to-save-people](https://github.com/Bittu56/Leetcode-problems/tree/master/0917-boats-to-save-people) |
 | [3748-sort-matrix-by-diagonals](https://github.com/Bittu56/Leetcode-problems/tree/master/3748-sort-matrix-by-diagonals) |
 ## Heap (Priority Queue)
 |  |
@@ -183,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0917-boats-to-save-people](https://github.com/Bittu56/Leetcode-problems/tree/master/0917-boats-to-save-people) |
 | [1917-maximum-average-pass-ratio](https://github.com/Bittu56/Leetcode-problems/tree/master/1917-maximum-average-pass-ratio) |
 ## Bit Manipulation
 |  |
