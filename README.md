@@ -154,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Bittu56/Leetcode-problems/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
 | [0382-linked-list-random-node](https://github.com/Bittu56/Leetcode-problems/tree/master/0382-linked-list-random-node) |
 | [0445-add-two-numbers-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/0445-add-two-numbers-ii) |
+| [0725-split-linked-list-in-parts](https://github.com/Bittu56/Leetcode-problems/tree/master/0725-split-linked-list-in-parts) |
 | [1267-remove-zero-sum-consecutive-nodes-from-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/1267-remove-zero-sum-consecutive-nodes-from-linked-list) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## Reservoir Sampling
