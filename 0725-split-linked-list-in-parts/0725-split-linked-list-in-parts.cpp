@@ -10,36 +10,34 @@
  */
 class Solution {
 public:
-    vector<ListNode*> splitListToParts(ListNode* root, int k) {
-        // Create a vector of ListNode pointers to store the k parts.
-        vector<ListNode*> parts(k, nullptr);
-
-        // Calculate the length of the linked list.
-        int len = 0;
-        for (ListNode* node = root; node; node = node->next)
-            len++;
-
-        // Calculate the minimum guaranteed part size (n) and the number of extra nodes (r).
-        int n = len / k, r = len % k;
-
-        // Initialize pointers to traverse the linked list.
-        ListNode* node = root, *prev = nullptr;
-
-        // Loop through each part.
-        for (int i = 0; node && i < k; i++, r--) {
-            // Store the current node as the start of the current part.
-            parts[i] = node;
-            // Traverse n + 1 nodes if there are remaining extra nodes (r > 0).
-            // Otherwise, traverse only n nodes.
-            for (int j = 0; j < n + (r > 0); j++) {
-                prev = node;
-                node = node->next;
-            }
-            // Disconnect the current part from the rest of the list by setting prev->next to nullptr.
-            prev->next = nullptr;
+    vector<ListNode*> splitListToParts(ListNode* head, int k) {
+        ListNode* curr = head;
+        int L = 0;
+        while(curr) {
+            L++;
+            curr = curr->next;
         }
-
-        // Return the array of k parts.
-        return parts;
+        
+        int eachBucketNodes = L/k; //0
+        int remainderNodes  = L%k; //3
+        
+        vector<ListNode*> result(k, NULL);
+        curr           = head;
+        ListNode* prev = NULL;
+        
+        for(int i = 0; curr && i < k ; i++) {
+            
+            result[i] = curr;
+            
+            for(int count = 1; count <= eachBucketNodes + (remainderNodes > 0 ? 1 : 0); count++) {
+                prev = curr;
+                curr = curr->next;
+            }
+            
+            prev->next = NULL;
+            remainderNodes--;
+        }
+        
+        return result;
     }
 };
