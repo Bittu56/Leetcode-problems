@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0015-3sum](https://github.com/Bittu56/Leetcode-problems/tree/master/0015-3sum) |
+| [0234-palindrome-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/0234-palindrome-linked-list) |
 | [0295-find-median-from-data-stream](https://github.com/Bittu56/Leetcode-problems/tree/master/0295-find-median-from-data-stream) |
 | [0917-boats-to-save-people](https://github.com/Bittu56/Leetcode-problems/tree/master/0917-boats-to-save-people) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
@@ -153,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0024-swap-nodes-in-pairs](https://github.com/Bittu56/Leetcode-problems/tree/master/0024-swap-nodes-in-pairs) |
 | [0092-reverse-linked-list-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/0092-reverse-linked-list-ii) |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Bittu56/Leetcode-problems/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
+| [0234-palindrome-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/0234-palindrome-linked-list) |
 | [0382-linked-list-random-node](https://github.com/Bittu56/Leetcode-problems/tree/master/0382-linked-list-random-node) |
 | [0445-add-two-numbers-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/0445-add-two-numbers-ii) |
 | [0725-split-linked-list-in-parts](https://github.com/Bittu56/Leetcode-problems/tree/master/0725-split-linked-list-in-parts) |
@@ -187,9 +189,11 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0024-swap-nodes-in-pairs](https://github.com/Bittu56/Leetcode-problems/tree/master/0024-swap-nodes-in-pairs) |
+| [0234-palindrome-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/0234-palindrome-linked-list) |
 ## Stack
 |  |
 | ------- |
+| [0234-palindrome-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/0234-palindrome-linked-list) |
 | [0445-add-two-numbers-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/0445-add-two-numbers-ii) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## Greedy
