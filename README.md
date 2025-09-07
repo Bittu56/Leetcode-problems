@@ -14,6 +14,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/Bittu56/Leetcode-problems/tree/master/0238-product-of-array-except-self) |
 | [0498-diagonal-traverse](https://github.com/Bittu56/Leetcode-problems/tree/master/0498-diagonal-traverse) |
 | [0917-boats-to-save-people](https://github.com/Bittu56/Leetcode-problems/tree/master/0917-boats-to-save-people) |
+| [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/Bittu56/Leetcode-problems/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Bittu56/Leetcode-problems/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Bittu56/Leetcode-problems/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Bittu56/Leetcode-problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -123,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0382-linked-list-random-node](https://github.com/Bittu56/Leetcode-problems/tree/master/0382-linked-list-random-node) |
 | [0445-add-two-numbers-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/0445-add-two-numbers-ii) |
 | [1033-broken-calculator](https://github.com/Bittu56/Leetcode-problems/tree/master/1033-broken-calculator) |
+| [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/Bittu56/Leetcode-problems/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [2871-double-a-number-represented-as-a-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/Bittu56/Leetcode-problems/tree/master/3279-alice-and-bob-playing-flower-game) |
