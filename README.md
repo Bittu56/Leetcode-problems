@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0382-linked-list-random-node](https://github.com/Bittu56/Leetcode-problems/tree/master/0382-linked-list-random-node) |
 | [0445-add-two-numbers-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/0445-add-two-numbers-ii) |
 | [1033-broken-calculator](https://github.com/Bittu56/Leetcode-problems/tree/master/1033-broken-calculator) |
+| [2871-double-a-number-represented-as-a-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/Bittu56/Leetcode-problems/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/Bittu56/Leetcode-problems/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
@@ -167,6 +168,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1765-merge-in-between-linked-lists](https://github.com/Bittu56/Leetcode-problems/tree/master/1765-merge-in-between-linked-lists) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2573-remove-nodes-from-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/2573-remove-nodes-from-linked-list) |
+| [2871-double-a-number-represented-as-a-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 ## Reservoir Sampling
 |  |
 | ------- |
@@ -206,6 +208,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0445-add-two-numbers-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/0445-add-two-numbers-ii) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 | [2573-remove-nodes-from-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/2573-remove-nodes-from-linked-list) |
+| [2871-double-a-number-represented-as-a-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 ## Greedy
 |  |
 | ------- |
