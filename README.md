@@ -114,6 +114,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0498-diagonal-traverse](https://github.com/Bittu56/Leetcode-problems/tree/master/0498-diagonal-traverse) |
+| [2299-merge-nodes-in-between-zeros](https://github.com/Bittu56/Leetcode-problems/tree/master/2299-merge-nodes-in-between-zeros) |
 ## Memoization
 |  |
 | ------- |
@@ -169,6 +170,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1267-remove-zero-sum-consecutive-nodes-from-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/1267-remove-zero-sum-consecutive-nodes-from-linked-list) |
 | [1765-merge-in-between-linked-lists](https://github.com/Bittu56/Leetcode-problems/tree/master/1765-merge-in-between-linked-lists) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
+| [2299-merge-nodes-in-between-zeros](https://github.com/Bittu56/Leetcode-problems/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2573-remove-nodes-from-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/2573-remove-nodes-from-linked-list) |
 | [2871-double-a-number-represented-as-a-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 ## Reservoir Sampling
