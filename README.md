@@ -135,6 +135,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0133-clone-graph](https://github.com/Bittu56/Leetcode-problems/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/Bittu56/Leetcode-problems/tree/master/0207-course-schedule) |
+| [1484-linked-list-in-binary-tree](https://github.com/Bittu56/Leetcode-problems/tree/master/1484-linked-list-in-binary-tree) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -168,6 +169,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0445-add-two-numbers-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/0445-add-two-numbers-ii) |
 | [0725-split-linked-list-in-parts](https://github.com/Bittu56/Leetcode-problems/tree/master/0725-split-linked-list-in-parts) |
 | [1267-remove-zero-sum-consecutive-nodes-from-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/1267-remove-zero-sum-consecutive-nodes-from-linked-list) |
+| [1484-linked-list-in-binary-tree](https://github.com/Bittu56/Leetcode-problems/tree/master/1484-linked-list-in-binary-tree) |
 | [1765-merge-in-between-linked-lists](https://github.com/Bittu56/Leetcode-problems/tree/master/1765-merge-in-between-linked-lists) |
 | [2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points](https://github.com/Bittu56/Leetcode-problems/tree/master/2182-find-the-minimum-and-maximum-number-of-nodes-between-critical-points) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
@@ -190,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Bittu56/Leetcode-problems/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
+| [1484-linked-list-in-binary-tree](https://github.com/Bittu56/Leetcode-problems/tree/master/1484-linked-list-in-binary-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
@@ -198,6 +201,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Bittu56/Leetcode-problems/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
+| [1484-linked-list-in-binary-tree](https://github.com/Bittu56/Leetcode-problems/tree/master/1484-linked-list-in-binary-tree) |
 ## Recursion
 |  |
 | ------- |
