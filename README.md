@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Bittu56/Leetcode-problems/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Bittu56/Leetcode-problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1917-maximum-average-pass-ratio](https://github.com/Bittu56/Leetcode-problems/tree/master/1917-maximum-average-pass-ratio) |
+| [2257-earliest-possible-day-of-full-bloom](https://github.com/Bittu56/Leetcode-problems/tree/master/2257-earliest-possible-day-of-full-bloom) |
 | [3251-maximum-area-of-longest-diagonal-rectangle](https://github.com/Bittu56/Leetcode-problems/tree/master/3251-maximum-area-of-longest-diagonal-rectangle) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
@@ -75,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0047-permutations-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/0047-permutations-ii) |
 | [0295-find-median-from-data-stream](https://github.com/Bittu56/Leetcode-problems/tree/master/0295-find-median-from-data-stream) |
 | [0917-boats-to-save-people](https://github.com/Bittu56/Leetcode-problems/tree/master/0917-boats-to-save-people) |
+| [2257-earliest-possible-day-of-full-bloom](https://github.com/Bittu56/Leetcode-problems/tree/master/2257-earliest-possible-day-of-full-bloom) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3748-sort-matrix-by-diagonals](https://github.com/Bittu56/Leetcode-problems/tree/master/3748-sort-matrix-by-diagonals) |
 ## Heap (Priority Queue)
@@ -229,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1252-break-a-palindrome](https://github.com/Bittu56/Leetcode-problems/tree/master/1252-break-a-palindrome) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Bittu56/Leetcode-problems/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1917-maximum-average-pass-ratio](https://github.com/Bittu56/Leetcode-problems/tree/master/1917-maximum-average-pass-ratio) |
+| [2257-earliest-possible-day-of-full-bloom](https://github.com/Bittu56/Leetcode-problems/tree/master/2257-earliest-possible-day-of-full-bloom) |
 ## Bit Manipulation
 |  |
 | ------- |
