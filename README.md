@@ -15,6 +15,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0498-diagonal-traverse](https://github.com/Bittu56/Leetcode-problems/tree/master/0498-diagonal-traverse) |
 | [0917-boats-to-save-people](https://github.com/Bittu56/Leetcode-problems/tree/master/0917-boats-to-save-people) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/Bittu56/Leetcode-problems/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
+| [1451-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/Bittu56/Leetcode-problems/tree/master/1451-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Bittu56/Leetcode-problems/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Bittu56/Leetcode-problems/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/Bittu56/Leetcode-problems/tree/master/1834-minimum-number-of-people-to-teach) |
@@ -99,6 +100,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Bittu56/Leetcode-problems/tree/master/0022-generate-parentheses) |
+| [1451-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/Bittu56/Leetcode-problems/tree/master/1451-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Bittu56/Leetcode-problems/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Bittu56/Leetcode-problems/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Bittu56/Leetcode-problems/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
@@ -240,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0917-boats-to-save-people](https://github.com/Bittu56/Leetcode-problems/tree/master/0917-boats-to-save-people) |
 | [1033-broken-calculator](https://github.com/Bittu56/Leetcode-problems/tree/master/1033-broken-calculator) |
 | [1252-break-a-palindrome](https://github.com/Bittu56/Leetcode-problems/tree/master/1252-break-a-palindrome) |
+| [1451-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/Bittu56/Leetcode-problems/tree/master/1451-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Bittu56/Leetcode-problems/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/Bittu56/Leetcode-problems/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1917-maximum-average-pass-ratio](https://github.com/Bittu56/Leetcode-problems/tree/master/1917-maximum-average-pass-ratio) |
