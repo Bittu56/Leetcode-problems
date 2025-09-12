@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Bittu56/Leetcode-problems/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Bittu56/Leetcode-problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Bittu56/Leetcode-problems/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
+| [3462-vowels-game-in-a-string](https://github.com/Bittu56/Leetcode-problems/tree/master/3462-vowels-game-in-a-string) |
 ## Prefix Sum
 |  |
 | ------- |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2871-double-a-number-represented-as-a-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/2871-double-a-number-represented-as-a-linked-list) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
 | [3279-alice-and-bob-playing-flower-game](https://github.com/Bittu56/Leetcode-problems/tree/master/3279-alice-and-bob-playing-flower-game) |
+| [3462-vowels-game-in-a-string](https://github.com/Bittu56/Leetcode-problems/tree/master/3462-vowels-game-in-a-string) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/Bittu56/Leetcode-problems/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 ## Depth-First Search
 |  |
@@ -271,6 +273,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/Bittu56/Leetcode-problems/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
+| [3462-vowels-game-in-a-string](https://github.com/Bittu56/Leetcode-problems/tree/master/3462-vowels-game-in-a-string) |
 ## Monotonic Stack
 |  |
 | ------- |
@@ -284,4 +287,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [1961-maximum-ice-cream-bars](https://github.com/Bittu56/Leetcode-problems/tree/master/1961-maximum-ice-cream-bars) |
+## Game Theory
+|  |
+| ------- |
+| [3462-vowels-game-in-a-string](https://github.com/Bittu56/Leetcode-problems/tree/master/3462-vowels-game-in-a-string) |
 <!---LeetCode Topics End-->
