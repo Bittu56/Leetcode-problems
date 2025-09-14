@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1849-maximum-absolute-sum-of-any-subarray](https://github.com/Bittu56/Leetcode-problems/tree/master/1849-maximum-absolute-sum-of-any-subarray) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Bittu56/Leetcode-problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [1917-maximum-average-pass-ratio](https://github.com/Bittu56/Leetcode-problems/tree/master/1917-maximum-average-pass-ratio) |
+| [1956-maximum-element-after-decreasing-and-rearranging](https://github.com/Bittu56/Leetcode-problems/tree/master/1956-maximum-element-after-decreasing-and-rearranging) |
 | [1961-maximum-ice-cream-bars](https://github.com/Bittu56/Leetcode-problems/tree/master/1961-maximum-ice-cream-bars) |
 | [2049-eliminate-maximum-number-of-monsters](https://github.com/Bittu56/Leetcode-problems/tree/master/2049-eliminate-maximum-number-of-monsters) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Bittu56/Leetcode-problems/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
@@ -90,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/Bittu56/Leetcode-problems/tree/master/0295-find-median-from-data-stream) |
 | [0917-boats-to-save-people](https://github.com/Bittu56/Leetcode-problems/tree/master/0917-boats-to-save-people) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Bittu56/Leetcode-problems/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
+| [1956-maximum-element-after-decreasing-and-rearranging](https://github.com/Bittu56/Leetcode-problems/tree/master/1956-maximum-element-after-decreasing-and-rearranging) |
 | [1961-maximum-ice-cream-bars](https://github.com/Bittu56/Leetcode-problems/tree/master/1961-maximum-ice-cream-bars) |
 | [2049-eliminate-maximum-number-of-monsters](https://github.com/Bittu56/Leetcode-problems/tree/master/2049-eliminate-maximum-number-of-monsters) |
 | [2257-earliest-possible-day-of-full-bloom](https://github.com/Bittu56/Leetcode-problems/tree/master/2257-earliest-possible-day-of-full-bloom) |
@@ -260,6 +262,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Bittu56/Leetcode-problems/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/Bittu56/Leetcode-problems/tree/master/1834-minimum-number-of-people-to-teach) |
 | [1917-maximum-average-pass-ratio](https://github.com/Bittu56/Leetcode-problems/tree/master/1917-maximum-average-pass-ratio) |
+| [1956-maximum-element-after-decreasing-and-rearranging](https://github.com/Bittu56/Leetcode-problems/tree/master/1956-maximum-element-after-decreasing-and-rearranging) |
 | [1961-maximum-ice-cream-bars](https://github.com/Bittu56/Leetcode-problems/tree/master/1961-maximum-ice-cream-bars) |
 | [2049-eliminate-maximum-number-of-monsters](https://github.com/Bittu56/Leetcode-problems/tree/master/2049-eliminate-maximum-number-of-monsters) |
 | [2149-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/Bittu56/Leetcode-problems/tree/master/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
