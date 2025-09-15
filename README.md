@@ -42,6 +42,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0022-generate-parentheses](https://github.com/Bittu56/Leetcode-problems/tree/master/0022-generate-parentheses) |
+| [0345-reverse-vowels-of-a-string](https://github.com/Bittu56/Leetcode-problems/tree/master/0345-reverse-vowels-of-a-string) |
 | [1252-break-a-palindrome](https://github.com/Bittu56/Leetcode-problems/tree/master/1252-break-a-palindrome) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Bittu56/Leetcode-problems/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Bittu56/Leetcode-problems/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/Bittu56/Leetcode-problems/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/0234-palindrome-linked-list) |
 | [0295-find-median-from-data-stream](https://github.com/Bittu56/Leetcode-problems/tree/master/0295-find-median-from-data-stream) |
+| [0345-reverse-vowels-of-a-string](https://github.com/Bittu56/Leetcode-problems/tree/master/0345-reverse-vowels-of-a-string) |
 | [0917-boats-to-save-people](https://github.com/Bittu56/Leetcode-problems/tree/master/0917-boats-to-save-people) |
 | [2236-maximum-twin-sum-of-a-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/2236-maximum-twin-sum-of-a-linked-list) |
 ## Design
