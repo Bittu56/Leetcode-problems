@@ -30,6 +30,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1956-maximum-element-after-decreasing-and-rearranging](https://github.com/Bittu56/Leetcode-problems/tree/master/1956-maximum-element-after-decreasing-and-rearranging) |
 | [1961-maximum-ice-cream-bars](https://github.com/Bittu56/Leetcode-problems/tree/master/1961-maximum-ice-cream-bars) |
 | [1988-minimize-maximum-pair-sum-in-array](https://github.com/Bittu56/Leetcode-problems/tree/master/1988-minimize-maximum-pair-sum-in-array) |
+| [2023-design-movie-rental-system](https://github.com/Bittu56/Leetcode-problems/tree/master/2023-design-movie-rental-system) |
 | [2049-eliminate-maximum-number-of-monsters](https://github.com/Bittu56/Leetcode-problems/tree/master/2049-eliminate-maximum-number-of-monsters) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Bittu56/Leetcode-problems/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2257-earliest-possible-day-of-full-bloom](https://github.com/Bittu56/Leetcode-problems/tree/master/2257-earliest-possible-day-of-full-bloom) |
@@ -102,6 +103,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/Bittu56/Leetcode-problems/tree/master/0295-find-median-from-data-stream) |
+| [2023-design-movie-rental-system](https://github.com/Bittu56/Leetcode-problems/tree/master/2023-design-movie-rental-system) |
 | [2429-design-a-food-rating-system](https://github.com/Bittu56/Leetcode-problems/tree/master/2429-design-a-food-rating-system) |
 | [3678-design-task-manager](https://github.com/Bittu56/Leetcode-problems/tree/master/3678-design-task-manager) |
 | [3797-design-spreadsheet](https://github.com/Bittu56/Leetcode-problems/tree/master/3797-design-spreadsheet) |
@@ -126,6 +128,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/Bittu56/Leetcode-problems/tree/master/0295-find-median-from-data-stream) |
 | [1917-maximum-average-pass-ratio](https://github.com/Bittu56/Leetcode-problems/tree/master/1917-maximum-average-pass-ratio) |
+| [2023-design-movie-rental-system](https://github.com/Bittu56/Leetcode-problems/tree/master/2023-design-movie-rental-system) |
 | [2429-design-a-food-rating-system](https://github.com/Bittu56/Leetcode-problems/tree/master/2429-design-a-food-rating-system) |
 | [3678-design-task-manager](https://github.com/Bittu56/Leetcode-problems/tree/master/3678-design-task-manager) |
 ## Data Stream
@@ -160,6 +163,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1267-remove-zero-sum-consecutive-nodes-from-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/1267-remove-zero-sum-consecutive-nodes-from-linked-list) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Bittu56/Leetcode-problems/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/Bittu56/Leetcode-problems/tree/master/1834-minimum-number-of-people-to-teach) |
+| [2023-design-movie-rental-system](https://github.com/Bittu56/Leetcode-problems/tree/master/2023-design-movie-rental-system) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Bittu56/Leetcode-problems/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/Bittu56/Leetcode-problems/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2429-design-a-food-rating-system](https://github.com/Bittu56/Leetcode-problems/tree/master/2429-design-a-food-rating-system) |
@@ -343,6 +347,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Ordered Set
 |  |
 | ------- |
+| [2023-design-movie-rental-system](https://github.com/Bittu56/Leetcode-problems/tree/master/2023-design-movie-rental-system) |
 | [2429-design-a-food-rating-system](https://github.com/Bittu56/Leetcode-problems/tree/master/2429-design-a-food-rating-system) |
 | [3678-design-task-manager](https://github.com/Bittu56/Leetcode-problems/tree/master/3678-design-task-manager) |
 <!---LeetCode Topics End-->
