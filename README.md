@@ -51,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/Bittu56/Leetcode-problems/tree/master/0022-generate-parentheses) |
 | [0079-word-search](https://github.com/Bittu56/Leetcode-problems/tree/master/0079-word-search) |
+| [0166-fraction-to-recurring-decimal](https://github.com/Bittu56/Leetcode-problems/tree/master/0166-fraction-to-recurring-decimal) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Bittu56/Leetcode-problems/tree/master/0345-reverse-vowels-of-a-string) |
 | [0768-partition-labels](https://github.com/Bittu56/Leetcode-problems/tree/master/0768-partition-labels) |
 | [1252-break-a-palindrome](https://github.com/Bittu56/Leetcode-problems/tree/master/1252-break-a-palindrome) |
@@ -158,6 +159,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/Bittu56/Leetcode-problems/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/Bittu56/Leetcode-problems/tree/master/0037-sudoku-solver) |
 | [0133-clone-graph](https://github.com/Bittu56/Leetcode-problems/tree/master/0133-clone-graph) |
+| [0166-fraction-to-recurring-decimal](https://github.com/Bittu56/Leetcode-problems/tree/master/0166-fraction-to-recurring-decimal) |
 | [0219-contains-duplicate-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/0219-contains-duplicate-ii) |
 | [0768-partition-labels](https://github.com/Bittu56/Leetcode-problems/tree/master/0768-partition-labels) |
 | [1267-remove-zero-sum-consecutive-nodes-from-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/1267-remove-zero-sum-consecutive-nodes-from-linked-list) |
@@ -187,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0166-fraction-to-recurring-decimal](https://github.com/Bittu56/Leetcode-problems/tree/master/0166-fraction-to-recurring-decimal) |
 | [0382-linked-list-random-node](https://github.com/Bittu56/Leetcode-problems/tree/master/0382-linked-list-random-node) |
 | [0445-add-two-numbers-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/0445-add-two-numbers-ii) |
 | [1033-broken-calculator](https://github.com/Bittu56/Leetcode-problems/tree/master/1033-broken-calculator) |
