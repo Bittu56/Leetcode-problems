@@ -17,6 +17,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/Bittu56/Leetcode-problems/tree/master/0238-product-of-array-except-self) |
 | [0446-arithmetic-slices-ii-subsequence](https://github.com/Bittu56/Leetcode-problems/tree/master/0446-arithmetic-slices-ii-subsequence) |
 | [0498-diagonal-traverse](https://github.com/Bittu56/Leetcode-problems/tree/master/0498-diagonal-traverse) |
+| [0611-valid-triangle-number](https://github.com/Bittu56/Leetcode-problems/tree/master/0611-valid-triangle-number) |
 | [0917-boats-to-save-people](https://github.com/Bittu56/Leetcode-problems/tree/master/0917-boats-to-save-people) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/Bittu56/Leetcode-problems/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1451-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/Bittu56/Leetcode-problems/tree/master/1451-minimum-number-of-taps-to-open-to-water-a-garden) |
@@ -95,6 +96,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/0234-palindrome-linked-list) |
 | [0295-find-median-from-data-stream](https://github.com/Bittu56/Leetcode-problems/tree/master/0295-find-median-from-data-stream) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Bittu56/Leetcode-problems/tree/master/0345-reverse-vowels-of-a-string) |
+| [0611-valid-triangle-number](https://github.com/Bittu56/Leetcode-problems/tree/master/0611-valid-triangle-number) |
 | [0768-partition-labels](https://github.com/Bittu56/Leetcode-problems/tree/master/0768-partition-labels) |
 | [0917-boats-to-save-people](https://github.com/Bittu56/Leetcode-problems/tree/master/0917-boats-to-save-people) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Bittu56/Leetcode-problems/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
@@ -114,6 +116,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0015-3sum](https://github.com/Bittu56/Leetcode-problems/tree/master/0015-3sum) |
 | [0047-permutations-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/0047-permutations-ii) |
 | [0295-find-median-from-data-stream](https://github.com/Bittu56/Leetcode-problems/tree/master/0295-find-median-from-data-stream) |
+| [0611-valid-triangle-number](https://github.com/Bittu56/Leetcode-problems/tree/master/0611-valid-triangle-number) |
 | [0917-boats-to-save-people](https://github.com/Bittu56/Leetcode-problems/tree/master/0917-boats-to-save-people) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Bittu56/Leetcode-problems/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Bittu56/Leetcode-problems/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
@@ -176,6 +179,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0033-search-in-rotated-sorted-array](https://github.com/Bittu56/Leetcode-problems/tree/master/0033-search-in-rotated-sorted-array) |
+| [0611-valid-triangle-number](https://github.com/Bittu56/Leetcode-problems/tree/master/0611-valid-triangle-number) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Bittu56/Leetcode-problems/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 ## Simulation
 |  |
@@ -295,6 +299,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0135-candy](https://github.com/Bittu56/Leetcode-problems/tree/master/0135-candy) |
+| [0611-valid-triangle-number](https://github.com/Bittu56/Leetcode-problems/tree/master/0611-valid-triangle-number) |
 | [0768-partition-labels](https://github.com/Bittu56/Leetcode-problems/tree/master/0768-partition-labels) |
 | [0917-boats-to-save-people](https://github.com/Bittu56/Leetcode-problems/tree/master/0917-boats-to-save-people) |
 | [1033-broken-calculator](https://github.com/Bittu56/Leetcode-problems/tree/master/1033-broken-calculator) |
