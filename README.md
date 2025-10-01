@@ -187,6 +187,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0498-diagonal-traverse](https://github.com/Bittu56/Leetcode-problems/tree/master/0498-diagonal-traverse) |
+| [1642-water-bottles](https://github.com/Bittu56/Leetcode-problems/tree/master/1642-water-bottles) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/Bittu56/Leetcode-problems/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/Bittu56/Leetcode-problems/tree/master/2408-number-of-people-aware-of-a-secret) |
 ## Memoization
@@ -202,6 +203,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0830-largest-triangle-area](https://github.com/Bittu56/Leetcode-problems/tree/master/0830-largest-triangle-area) |
 | [1033-broken-calculator](https://github.com/Bittu56/Leetcode-problems/tree/master/1033-broken-calculator) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/Bittu56/Leetcode-problems/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
+| [1642-water-bottles](https://github.com/Bittu56/Leetcode-problems/tree/master/1642-water-bottles) |
 | [2149-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/Bittu56/Leetcode-problems/tree/master/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
 | [2450-minimum-replacements-to-sort-the-array](https://github.com/Bittu56/Leetcode-problems/tree/master/2450-minimum-replacements-to-sort-the-array) |
 | [2871-double-a-number-represented-as-a-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/2871-double-a-number-represented-as-a-linked-list) |
