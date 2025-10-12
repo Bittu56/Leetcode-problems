@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3748-sort-matrix-by-diagonals](https://github.com/Bittu56/Leetcode-problems/tree/master/3748-sort-matrix-by-diagonals) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Bittu56/Leetcode-problems/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 | [3797-design-spreadsheet](https://github.com/Bittu56/Leetcode-problems/tree/master/3797-design-spreadsheet) |
+| [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/Bittu56/Leetcode-problems/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 ## String
 |  |
 | ------- |
@@ -165,6 +166,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/Bittu56/Leetcode-problems/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Bittu56/Leetcode-problems/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
+| [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/Bittu56/Leetcode-problems/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 ## Sliding Window
 |  |
 | ------- |
@@ -227,6 +229,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3279-alice-and-bob-playing-flower-game](https://github.com/Bittu56/Leetcode-problems/tree/master/3279-alice-and-bob-playing-flower-game) |
 | [3462-vowels-game-in-a-string](https://github.com/Bittu56/Leetcode-problems/tree/master/3462-vowels-game-in-a-string) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/Bittu56/Leetcode-problems/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
+| [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/Bittu56/Leetcode-problems/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 ## Depth-First Search
 |  |
 | ------- |
@@ -351,6 +354,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/Bittu56/Leetcode-problems/tree/master/0078-subsets) |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/Bittu56/Leetcode-problems/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/Bittu56/Leetcode-problems/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
+| [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/Bittu56/Leetcode-problems/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 ## Geometry
 |  |
 | ------- |
@@ -394,4 +398,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0794-swim-in-rising-water](https://github.com/Bittu56/Leetcode-problems/tree/master/0794-swim-in-rising-water) |
+## Combinatorics
+|  |
+| ------- |
+| [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/Bittu56/Leetcode-problems/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
+## Bitmask
+|  |
+| ------- |
+| [3851-find-sum-of-array-product-of-magical-sequences](https://github.com/Bittu56/Leetcode-problems/tree/master/3851-find-sum-of-array-product-of-magical-sequences) |
 <!---LeetCode Topics End-->
