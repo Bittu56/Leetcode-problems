@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/Bittu56/Leetcode-problems/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/Bittu56/Leetcode-problems/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
+| [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/Bittu56/Leetcode-problems/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Bittu56/Leetcode-problems/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3744-minimum-operations-to-make-array-elements-zero](https://github.com/Bittu56/Leetcode-problems/tree/master/3744-minimum-operations-to-make-array-elements-zero) |
 | [3748-sort-matrix-by-diagonals](https://github.com/Bittu56/Leetcode-problems/tree/master/3748-sort-matrix-by-diagonals) |
@@ -79,6 +80,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Bittu56/Leetcode-problems/tree/master/0238-product-of-array-except-self) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Bittu56/Leetcode-problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
+| [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/Bittu56/Leetcode-problems/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Bittu56/Leetcode-problems/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Matrix
 |  |
@@ -139,6 +141,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2049-eliminate-maximum-number-of-monsters](https://github.com/Bittu56/Leetcode-problems/tree/master/2049-eliminate-maximum-number-of-monsters) |
 | [2257-earliest-possible-day-of-full-bloom](https://github.com/Bittu56/Leetcode-problems/tree/master/2257-earliest-possible-day-of-full-bloom) |
 | [3277-find-the-number-of-ways-to-place-people-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/3277-find-the-number-of-ways-to-place-people-ii) |
+| [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/Bittu56/Leetcode-problems/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3748-sort-matrix-by-diagonals](https://github.com/Bittu56/Leetcode-problems/tree/master/3748-sort-matrix-by-diagonals) |
 ## Heap (Priority Queue)
 |  |
@@ -174,6 +177,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0219-contains-duplicate-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/0219-contains-duplicate-ii) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Bittu56/Leetcode-problems/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
+| [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/Bittu56/Leetcode-problems/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 ## Hash Table
 |  |
 | ------- |
@@ -203,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0794-swim-in-rising-water](https://github.com/Bittu56/Leetcode-problems/tree/master/0794-swim-in-rising-water) |
 | [1612-avoid-flood-in-the-city](https://github.com/Bittu56/Leetcode-problems/tree/master/1612-avoid-flood-in-the-city) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Bittu56/Leetcode-problems/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
+| [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/Bittu56/Leetcode-problems/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 ## Simulation
 |  |
 | ------- |
