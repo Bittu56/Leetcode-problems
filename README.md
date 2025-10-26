@@ -38,6 +38,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1988-minimize-maximum-pair-sum-in-array](https://github.com/Bittu56/Leetcode-problems/tree/master/1988-minimize-maximum-pair-sum-in-array) |
 | [2023-design-movie-rental-system](https://github.com/Bittu56/Leetcode-problems/tree/master/2023-design-movie-rental-system) |
 | [2049-eliminate-maximum-number-of-monsters](https://github.com/Bittu56/Leetcode-problems/tree/master/2049-eliminate-maximum-number-of-monsters) |
+| [2169-simple-bank-system](https://github.com/Bittu56/Leetcode-problems/tree/master/2169-simple-bank-system) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Bittu56/Leetcode-problems/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2257-earliest-possible-day-of-full-bloom](https://github.com/Bittu56/Leetcode-problems/tree/master/2257-earliest-possible-day-of-full-bloom) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/Bittu56/Leetcode-problems/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
@@ -123,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/Bittu56/Leetcode-problems/tree/master/0295-find-median-from-data-stream) |
 | [2023-design-movie-rental-system](https://github.com/Bittu56/Leetcode-problems/tree/master/2023-design-movie-rental-system) |
+| [2169-simple-bank-system](https://github.com/Bittu56/Leetcode-problems/tree/master/2169-simple-bank-system) |
 | [2429-design-a-food-rating-system](https://github.com/Bittu56/Leetcode-problems/tree/master/2429-design-a-food-rating-system) |
 | [3678-design-task-manager](https://github.com/Bittu56/Leetcode-problems/tree/master/3678-design-task-manager) |
 | [3797-design-spreadsheet](https://github.com/Bittu56/Leetcode-problems/tree/master/3797-design-spreadsheet) |
@@ -193,6 +195,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Bittu56/Leetcode-problems/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1834-minimum-number-of-people-to-teach](https://github.com/Bittu56/Leetcode-problems/tree/master/1834-minimum-number-of-people-to-teach) |
 | [2023-design-movie-rental-system](https://github.com/Bittu56/Leetcode-problems/tree/master/2023-design-movie-rental-system) |
+| [2169-simple-bank-system](https://github.com/Bittu56/Leetcode-problems/tree/master/2169-simple-bank-system) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/Bittu56/Leetcode-problems/tree/master/2174-next-greater-numerically-balanced-number) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Bittu56/Leetcode-problems/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/Bittu56/Leetcode-problems/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
@@ -215,6 +218,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0498-diagonal-traverse](https://github.com/Bittu56/Leetcode-problems/tree/master/0498-diagonal-traverse) |
 | [1642-water-bottles](https://github.com/Bittu56/Leetcode-problems/tree/master/1642-water-bottles) |
+| [2169-simple-bank-system](https://github.com/Bittu56/Leetcode-problems/tree/master/2169-simple-bank-system) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/Bittu56/Leetcode-problems/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/Bittu56/Leetcode-problems/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Bittu56/Leetcode-problems/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
