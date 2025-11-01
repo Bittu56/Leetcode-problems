@@ -50,6 +50,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3490-find-the-maximum-length-of-valid-subsequence-i](https://github.com/Bittu56/Leetcode-problems/tree/master/3490-find-the-maximum-length-of-valid-subsequence-i) |
 | [3491-find-the-maximum-length-of-valid-subsequence-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/3491-find-the-maximum-length-of-valid-subsequence-ii) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Bittu56/Leetcode-problems/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3612-adjacent-increasing-subarrays-detection-i](https://github.com/Bittu56/Leetcode-problems/tree/master/3612-adjacent-increasing-subarrays-detection-i) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/Bittu56/Leetcode-problems/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Bittu56/Leetcode-problems/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
@@ -201,6 +202,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/Bittu56/Leetcode-problems/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2429-design-a-food-rating-system](https://github.com/Bittu56/Leetcode-problems/tree/master/2429-design-a-food-rating-system) |
 | [2661-smallest-missing-non-negative-integer-after-operations](https://github.com/Bittu56/Leetcode-problems/tree/master/2661-smallest-missing-non-negative-integer-after-operations) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Bittu56/Leetcode-problems/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 | [3678-design-task-manager](https://github.com/Bittu56/Leetcode-problems/tree/master/3678-design-task-manager) |
 | [3797-design-spreadsheet](https://github.com/Bittu56/Leetcode-problems/tree/master/3797-design-spreadsheet) |
 | [3872-find-most-frequent-vowel-and-consonant](https://github.com/Bittu56/Leetcode-problems/tree/master/3872-find-most-frequent-vowel-and-consonant) |
@@ -298,6 +300,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2299-merge-nodes-in-between-zeros](https://github.com/Bittu56/Leetcode-problems/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2573-remove-nodes-from-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/2573-remove-nodes-from-linked-list) |
 | [2871-double-a-number-represented-as-a-linked-list](https://github.com/Bittu56/Leetcode-problems/tree/master/2871-double-a-number-represented-as-a-linked-list) |
+| [3501-delete-nodes-from-linked-list-present-in-array](https://github.com/Bittu56/Leetcode-problems/tree/master/3501-delete-nodes-from-linked-list-present-in-array) |
 ## Reservoir Sampling
 |  |
 | ------- |
