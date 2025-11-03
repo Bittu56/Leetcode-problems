@@ -1,27 +1,27 @@
 class Solution {
 public:
     int minCost(string colors, vector<int>& neededTime) {
-        int n = colors.size();
-        
-        int time    = 0;
-        int prevMax = 0;
-        
-        for(int i = 0; i<n; i++) {
-            
-            if(i > 0 && colors[i] != colors[i-1]) {
-                prevMax = 0;
+        // initialise two pointers i, j.
+        int totalTime = 0;
+        int i = 0, j = 0;
+
+        while (i < neededTime.size() && j < neededTime.size()) {
+            int currTotal = 0, currMax = 0;
+
+            // Find all the balloons having the same color as the
+            // balloon indexed at i, record the total removal time
+            // and the maximum removal time.
+            while (j < neededTime.size() && colors[i] == colors[j]) {
+                currTotal += neededTime[j];
+                currMax = max(currMax, neededTime[j]);
+                j++;
             }
-            
-            
-            
-            int curr = neededTime[i];
-            
-            time += min(prevMax, curr); //greedily
-            
-            prevMax = max(prevMax, curr);
-            
+
+            // Once we reach the end of the current group, add the cost of
+            // this group to total_time, and reset two pointers.
+            totalTime += currTotal - currMax;
+            i = j;
         }
-        
-        return time;
+        return totalTime;
     }
 };
