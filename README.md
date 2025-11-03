@@ -41,6 +41,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2169-simple-bank-system](https://github.com/Bittu56/Leetcode-problems/tree/master/2169-simple-bank-system) |
 | [2237-longest-palindrome-by-concatenating-two-letter-words](https://github.com/Bittu56/Leetcode-problems/tree/master/2237-longest-palindrome-by-concatenating-two-letter-words) |
 | [2257-earliest-possible-day-of-full-bloom](https://github.com/Bittu56/Leetcode-problems/tree/master/2257-earliest-possible-day-of-full-bloom) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/Bittu56/Leetcode-problems/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2362-minimum-rounds-to-complete-all-tasks](https://github.com/Bittu56/Leetcode-problems/tree/master/2362-minimum-rounds-to-complete-all-tasks) |
 | [2429-design-a-food-rating-system](https://github.com/Bittu56/Leetcode-problems/tree/master/2429-design-a-food-rating-system) |
 | [2450-minimum-replacements-to-sort-the-array](https://github.com/Bittu56/Leetcode-problems/tree/master/2450-minimum-replacements-to-sort-the-array) |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0407-trapping-rain-water-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/0407-trapping-rain-water-ii) |
 | [0498-diagonal-traverse](https://github.com/Bittu56/Leetcode-problems/tree/master/0498-diagonal-traverse) |
 | [0794-swim-in-rising-water](https://github.com/Bittu56/Leetcode-problems/tree/master/0794-swim-in-rising-water) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/Bittu56/Leetcode-problems/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
 | [3733-length-of-longest-v-shaped-diagonal-segment](https://github.com/Bittu56/Leetcode-problems/tree/master/3733-length-of-longest-v-shaped-diagonal-segment) |
 | [3748-sort-matrix-by-diagonals](https://github.com/Bittu56/Leetcode-problems/tree/master/3748-sort-matrix-by-diagonals) |
@@ -222,6 +224,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1642-water-bottles](https://github.com/Bittu56/Leetcode-problems/tree/master/1642-water-bottles) |
 | [2169-simple-bank-system](https://github.com/Bittu56/Leetcode-problems/tree/master/2169-simple-bank-system) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/Bittu56/Leetcode-problems/tree/master/2299-merge-nodes-in-between-zeros) |
+| [2343-count-unguarded-cells-in-the-grid](https://github.com/Bittu56/Leetcode-problems/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2408-number-of-people-aware-of-a-secret](https://github.com/Bittu56/Leetcode-problems/tree/master/2408-number-of-people-aware-of-a-secret) |
 | [3794-find-the-minimum-amount-of-time-to-brew-potions](https://github.com/Bittu56/Leetcode-problems/tree/master/3794-find-the-minimum-amount-of-time-to-brew-potions) |
 ## Memoization
