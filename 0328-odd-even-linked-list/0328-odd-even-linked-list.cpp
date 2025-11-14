@@ -11,32 +11,26 @@
 class Solution {
 public:
     ListNode* oddEvenList(ListNode* head) {
-
-        if (head == NULL || head->next==NULL)
-{
-    return head;
-}
-
-ListNode* odd= head;
-ListNode* even = head->next;
+        if(head == NULL || head->next== NULL)
+        return head;
+        ListNode* odd= head;
+        ListNode *even= head->next;
+        ListNode *temp= head->next;  //even starting address store
 
 
-ListNode* temp= head->next; //even start address
+        while(even !=NULL  && even ->next!=NULL)
+         {
+            odd->next= even->next;
+            even->next= even->next->next;
+            odd=odd->next;
+            even=even->next;
+         }
 
+         ///stack
 
+         odd->next=temp;
 
-while(even !=NULL && even ->next !=NULL)
-{
-
-    odd->next= even->next;
-    even->next=even->next->next;
-    odd=odd->next;
-    even=even->next;
-}
-
-odd->next=temp;   //lin connect
-
-return head;
+         return head;
         
     }
 };
