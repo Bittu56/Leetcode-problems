@@ -72,6 +72,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0345-reverse-vowels-of-a-string](https://github.com/Bittu56/Leetcode-problems/tree/master/0345-reverse-vowels-of-a-string) |
 | [0768-partition-labels](https://github.com/Bittu56/Leetcode-problems/tree/master/0768-partition-labels) |
 | [1252-break-a-palindrome](https://github.com/Bittu56/Leetcode-problems/tree/master/1252-break-a-palindrome) |
+| [1636-number-of-substrings-with-only-1s](https://github.com/Bittu56/Leetcode-problems/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Bittu56/Leetcode-problems/tree/master/1700-minimum-time-to-make-rope-colorful) |
 | [1770-minimum-deletions-to-make-character-frequencies-unique](https://github.com/Bittu56/Leetcode-problems/tree/master/1770-minimum-deletions-to-make-character-frequencies-unique) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Bittu56/Leetcode-problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
@@ -251,6 +252,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0830-largest-triangle-area](https://github.com/Bittu56/Leetcode-problems/tree/master/0830-largest-triangle-area) |
 | [1033-broken-calculator](https://github.com/Bittu56/Leetcode-problems/tree/master/1033-broken-calculator) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/Bittu56/Leetcode-problems/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
+| [1636-number-of-substrings-with-only-1s](https://github.com/Bittu56/Leetcode-problems/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1642-water-bottles](https://github.com/Bittu56/Leetcode-problems/tree/master/1642-water-bottles) |
 | [2149-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/Bittu56/Leetcode-problems/tree/master/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/Bittu56/Leetcode-problems/tree/master/2174-next-greater-numerically-balanced-number) |
