@@ -20,6 +20,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0446-arithmetic-slices-ii-subsequence](https://github.com/Bittu56/Leetcode-problems/tree/master/0446-arithmetic-slices-ii-subsequence) |
 | [0498-diagonal-traverse](https://github.com/Bittu56/Leetcode-problems/tree/master/0498-diagonal-traverse) |
 | [0611-valid-triangle-number](https://github.com/Bittu56/Leetcode-problems/tree/master/0611-valid-triangle-number) |
+| [0717-1-bit-and-2-bit-characters](https://github.com/Bittu56/Leetcode-problems/tree/master/0717-1-bit-and-2-bit-characters) |
 | [0794-swim-in-rising-water](https://github.com/Bittu56/Leetcode-problems/tree/master/0794-swim-in-rising-water) |
 | [0830-largest-triangle-area](https://github.com/Bittu56/Leetcode-problems/tree/master/0830-largest-triangle-area) |
 | [0917-boats-to-save-people](https://github.com/Bittu56/Leetcode-problems/tree/master/0917-boats-to-save-people) |
