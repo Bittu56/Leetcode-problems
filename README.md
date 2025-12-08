@@ -279,6 +279,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0133-clone-graph](https://github.com/Bittu56/Leetcode-problems/tree/master/0133-clone-graph) |
 | [0207-course-schedule](https://github.com/Bittu56/Leetcode-problems/tree/master/0207-course-schedule) |
 | [0794-swim-in-rising-water](https://github.com/Bittu56/Leetcode-problems/tree/master/0794-swim-in-rising-water) |
+| [0938-range-sum-of-bst](https://github.com/Bittu56/Leetcode-problems/tree/master/0938-range-sum-of-bst) |
 | [1484-linked-list-in-binary-tree](https://github.com/Bittu56/Leetcode-problems/tree/master/1484-linked-list-in-binary-tree) |
 ## Breadth-First Search
 |  |
@@ -342,15 +343,18 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Bittu56/Leetcode-problems/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
+| [0938-range-sum-of-bst](https://github.com/Bittu56/Leetcode-problems/tree/master/0938-range-sum-of-bst) |
 | [1484-linked-list-in-binary-tree](https://github.com/Bittu56/Leetcode-problems/tree/master/1484-linked-list-in-binary-tree) |
 ## Binary Search Tree
 |  |
 | ------- |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Bittu56/Leetcode-problems/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
+| [0938-range-sum-of-bst](https://github.com/Bittu56/Leetcode-problems/tree/master/0938-range-sum-of-bst) |
 ## Binary Tree
 |  |
 | ------- |
 | [0109-convert-sorted-list-to-binary-search-tree](https://github.com/Bittu56/Leetcode-problems/tree/master/0109-convert-sorted-list-to-binary-search-tree) |
+| [0938-range-sum-of-bst](https://github.com/Bittu56/Leetcode-problems/tree/master/0938-range-sum-of-bst) |
 | [1484-linked-list-in-binary-tree](https://github.com/Bittu56/Leetcode-problems/tree/master/1484-linked-list-in-binary-tree) |
 ## Recursion
 |  |
