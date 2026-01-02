@@ -11,6 +11,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/Bittu56/Leetcode-problems/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/Bittu56/Leetcode-problems/tree/master/0037-sudoku-solver) |
 | [0047-permutations-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/0047-permutations-ii) |
+| [0066-plus-one](https://github.com/Bittu56/Leetcode-problems/tree/master/0066-plus-one) |
 | [0078-subsets](https://github.com/Bittu56/Leetcode-problems/tree/master/0078-subsets) |
 | [0079-word-search](https://github.com/Bittu56/Leetcode-problems/tree/master/0079-word-search) |
 | [0135-candy](https://github.com/Bittu56/Leetcode-problems/tree/master/0135-candy) |
@@ -253,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0066-plus-one](https://github.com/Bittu56/Leetcode-problems/tree/master/0066-plus-one) |
 | [0166-fraction-to-recurring-decimal](https://github.com/Bittu56/Leetcode-problems/tree/master/0166-fraction-to-recurring-decimal) |
 | [0382-linked-list-random-node](https://github.com/Bittu56/Leetcode-problems/tree/master/0382-linked-list-random-node) |
 | [0445-add-two-numbers-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/0445-add-two-numbers-ii) |
