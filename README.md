@@ -74,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0079-word-search](https://github.com/Bittu56/Leetcode-problems/tree/master/0079-word-search) |
 | [0166-fraction-to-recurring-decimal](https://github.com/Bittu56/Leetcode-problems/tree/master/0166-fraction-to-recurring-decimal) |
 | [0345-reverse-vowels-of-a-string](https://github.com/Bittu56/Leetcode-problems/tree/master/0345-reverse-vowels-of-a-string) |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/Bittu56/Leetcode-problems/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [0768-partition-labels](https://github.com/Bittu56/Leetcode-problems/tree/master/0768-partition-labels) |
 | [1252-break-a-palindrome](https://github.com/Bittu56/Leetcode-problems/tree/master/1252-break-a-palindrome) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/Bittu56/Leetcode-problems/tree/master/1636-number-of-substrings-with-only-1s) |
@@ -183,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0022-generate-parentheses](https://github.com/Bittu56/Leetcode-problems/tree/master/0022-generate-parentheses) |
 | [0446-arithmetic-slices-ii-subsequence](https://github.com/Bittu56/Leetcode-problems/tree/master/0446-arithmetic-slices-ii-subsequence) |
+| [0712-minimum-ascii-delete-sum-for-two-strings](https://github.com/Bittu56/Leetcode-problems/tree/master/0712-minimum-ascii-delete-sum-for-two-strings) |
 | [1451-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/Bittu56/Leetcode-problems/tree/master/1451-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Bittu56/Leetcode-problems/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
 | [1700-minimum-time-to-make-rope-colorful](https://github.com/Bittu56/Leetcode-problems/tree/master/1700-minimum-time-to-make-rope-colorful) |
