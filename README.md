@@ -25,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0794-swim-in-rising-water](https://github.com/Bittu56/Leetcode-problems/tree/master/0794-swim-in-rising-water) |
 | [0830-largest-triangle-area](https://github.com/Bittu56/Leetcode-problems/tree/master/0830-largest-triangle-area) |
 | [0917-boats-to-save-people](https://github.com/Bittu56/Leetcode-problems/tree/master/0917-boats-to-save-people) |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/Bittu56/Leetcode-problems/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/Bittu56/Leetcode-problems/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1451-minimum-number-of-taps-to-open-to-water-a-garden](https://github.com/Bittu56/Leetcode-problems/tree/master/1451-minimum-number-of-taps-to-open-to-water-a-garden) |
 | [1586-longest-subarray-of-1s-after-deleting-one-element](https://github.com/Bittu56/Leetcode-problems/tree/master/1586-longest-subarray-of-1s-after-deleting-one-element) |
@@ -93,6 +94,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0238-product-of-array-except-self](https://github.com/Bittu56/Leetcode-problems/tree/master/0238-product-of-array-except-self) |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/Bittu56/Leetcode-problems/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1895-minimum-number-of-operations-to-move-all-balls-to-each-box](https://github.com/Bittu56/Leetcode-problems/tree/master/1895-minimum-number-of-operations-to-move-all-balls-to-each-box) |
 | [2625-increment-submatrices-by-one](https://github.com/Bittu56/Leetcode-problems/tree/master/2625-increment-submatrices-by-one) |
 | [3622-maximum-frequency-of-an-element-after-performing-operations-i](https://github.com/Bittu56/Leetcode-problems/tree/master/3622-maximum-frequency-of-an-element-after-performing-operations-i) |
@@ -106,6 +108,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0407-trapping-rain-water-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/0407-trapping-rain-water-ii) |
 | [0498-diagonal-traverse](https://github.com/Bittu56/Leetcode-problems/tree/master/0498-diagonal-traverse) |
 | [0794-swim-in-rising-water](https://github.com/Bittu56/Leetcode-problems/tree/master/0794-swim-in-rising-water) |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/Bittu56/Leetcode-problems/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Bittu56/Leetcode-problems/tree/master/2343-count-unguarded-cells-in-the-grid) |
 | [2625-increment-submatrices-by-one](https://github.com/Bittu56/Leetcode-problems/tree/master/2625-increment-submatrices-by-one) |
 | [3459-find-the-minimum-area-to-cover-all-ones-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/3459-find-the-minimum-area-to-cover-all-ones-ii) |
@@ -237,6 +240,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0033-search-in-rotated-sorted-array](https://github.com/Bittu56/Leetcode-problems/tree/master/0033-search-in-rotated-sorted-array) |
 | [0611-valid-triangle-number](https://github.com/Bittu56/Leetcode-problems/tree/master/0611-valid-triangle-number) |
 | [0794-swim-in-rising-water](https://github.com/Bittu56/Leetcode-problems/tree/master/0794-swim-in-rising-water) |
+| [1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold](https://github.com/Bittu56/Leetcode-problems/tree/master/1292-maximum-side-length-of-a-square-with-sum-less-than-or-equal-to-threshold) |
 | [1612-avoid-flood-in-the-city](https://github.com/Bittu56/Leetcode-problems/tree/master/1612-avoid-flood-in-the-city) |
 | [1621-number-of-subsequences-that-satisfy-the-given-sum-condition](https://github.com/Bittu56/Leetcode-problems/tree/master/1621-number-of-subsequences-that-satisfy-the-given-sum-condition) |
 | [2141-maximum-running-time-of-n-computers](https://github.com/Bittu56/Leetcode-problems/tree/master/2141-maximum-running-time-of-n-computers) |
