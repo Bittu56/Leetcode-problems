@@ -254,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0498-diagonal-traverse](https://github.com/Bittu56/Leetcode-problems/tree/master/0498-diagonal-traverse) |
 | [1642-water-bottles](https://github.com/Bittu56/Leetcode-problems/tree/master/1642-water-bottles) |
+| [1680-concatenation-of-consecutive-binary-numbers](https://github.com/Bittu56/Leetcode-problems/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [2169-simple-bank-system](https://github.com/Bittu56/Leetcode-problems/tree/master/2169-simple-bank-system) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/Bittu56/Leetcode-problems/tree/master/2299-merge-nodes-in-between-zeros) |
 | [2343-count-unguarded-cells-in-the-grid](https://github.com/Bittu56/Leetcode-problems/tree/master/2343-count-unguarded-cells-in-the-grid) |
@@ -276,6 +277,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1426-find-n-unique-integers-sum-up-to-zero](https://github.com/Bittu56/Leetcode-problems/tree/master/1426-find-n-unique-integers-sum-up-to-zero) |
 | [1636-number-of-substrings-with-only-1s](https://github.com/Bittu56/Leetcode-problems/tree/master/1636-number-of-substrings-with-only-1s) |
 | [1642-water-bottles](https://github.com/Bittu56/Leetcode-problems/tree/master/1642-water-bottles) |
+| [1680-concatenation-of-consecutive-binary-numbers](https://github.com/Bittu56/Leetcode-problems/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [1925-count-square-sum-triples](https://github.com/Bittu56/Leetcode-problems/tree/master/1925-count-square-sum-triples) |
 | [2149-remove-colored-pieces-if-both-neighbors-are-the-same-color](https://github.com/Bittu56/Leetcode-problems/tree/master/2149-remove-colored-pieces-if-both-neighbors-are-the-same-color) |
 | [2174-next-greater-numerically-balanced-number](https://github.com/Bittu56/Leetcode-problems/tree/master/2174-next-greater-numerically-balanced-number) |
@@ -421,6 +423,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/Bittu56/Leetcode-problems/tree/master/0078-subsets) |
+| [1680-concatenation-of-consecutive-binary-numbers](https://github.com/Bittu56/Leetcode-problems/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/Bittu56/Leetcode-problems/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/Bittu56/Leetcode-problems/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
 | [3314-construct-the-minimum-bitwise-array-i](https://github.com/Bittu56/Leetcode-problems/tree/master/3314-construct-the-minimum-bitwise-array-i) |
