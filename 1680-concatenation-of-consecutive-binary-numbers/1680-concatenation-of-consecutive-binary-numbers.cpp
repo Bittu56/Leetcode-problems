@@ -1,17 +1,17 @@
 class Solution {
 public:
-    
-    int numberOfBits(int n) {
-		  return log2(n) + 1;
-    }
-    
+    int M = 1e9+7;
     int concatenatedBinary(int n) {
-        long ans = 0, MOD = 1e9 + 7;
         
-        for (int i = 1; i <= n; ++i) {
-            int len = numberOfBits(i);
-            ans = ((ans << len) % MOD + i) % MOD;
+        long result = 0;
+        
+        for(int i = 1; i<=n; i++) {
+            int digits = log2(i) + 1;
+            
+            result = (((result << digits)%M) + i)%M;
         }
-        return ans;
+        
+        return result;
+        
     }
 };
