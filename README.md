@@ -431,6 +431,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0078-subsets](https://github.com/Bittu56/Leetcode-problems/tree/master/0078-subsets) |
+| [1009-complement-of-base-10-integer](https://github.com/Bittu56/Leetcode-problems/tree/master/1009-complement-of-base-10-integer) |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/Bittu56/Leetcode-problems/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
 | [1732-minimum-one-bit-operations-to-make-integers-zero](https://github.com/Bittu56/Leetcode-problems/tree/master/1732-minimum-one-bit-operations-to-make-integers-zero) |
 | [2837-minimum-operations-to-make-the-integer-zero](https://github.com/Bittu56/Leetcode-problems/tree/master/2837-minimum-operations-to-make-the-integer-zero) |
