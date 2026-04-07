@@ -154,6 +154,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0295-find-median-from-data-stream](https://github.com/Bittu56/Leetcode-problems/tree/master/0295-find-median-from-data-stream) |
 | [2023-design-movie-rental-system](https://github.com/Bittu56/Leetcode-problems/tree/master/2023-design-movie-rental-system) |
+| [2069-walking-robot-simulation-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/2069-walking-robot-simulation-ii) |
 | [2169-simple-bank-system](https://github.com/Bittu56/Leetcode-problems/tree/master/2169-simple-bank-system) |
 | [2429-design-a-food-rating-system](https://github.com/Bittu56/Leetcode-problems/tree/master/2429-design-a-food-rating-system) |
 | [3678-design-task-manager](https://github.com/Bittu56/Leetcode-problems/tree/master/3678-design-task-manager) |
@@ -264,6 +265,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0657-robot-return-to-origin](https://github.com/Bittu56/Leetcode-problems/tree/master/0657-robot-return-to-origin) |
 | [1642-water-bottles](https://github.com/Bittu56/Leetcode-problems/tree/master/1642-water-bottles) |
 | [1680-concatenation-of-consecutive-binary-numbers](https://github.com/Bittu56/Leetcode-problems/tree/master/1680-concatenation-of-consecutive-binary-numbers) |
+| [2069-walking-robot-simulation-ii](https://github.com/Bittu56/Leetcode-problems/tree/master/2069-walking-robot-simulation-ii) |
 | [2075-decode-the-slanted-ciphertext](https://github.com/Bittu56/Leetcode-problems/tree/master/2075-decode-the-slanted-ciphertext) |
 | [2169-simple-bank-system](https://github.com/Bittu56/Leetcode-problems/tree/master/2169-simple-bank-system) |
 | [2299-merge-nodes-in-between-zeros](https://github.com/Bittu56/Leetcode-problems/tree/master/2299-merge-nodes-in-between-zeros) |
